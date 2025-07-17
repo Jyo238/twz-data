@@ -2586,6 +2586,97 @@
       "神祕紫箱"
     ]
   },
+  "1039": {
+    "id": 1039,
+    "name": {
+      "zh_tw": "小惡魔翅膀",
+      "en": "Petite_DiablOfs_Wing"
+    },
+    "icon_url": "/images/items/1039.gif",
+    "category": "其他類",
+    "slot": "--",
+    "description": {
+      "official": "小惡魔身上的小翅膀，和蝙蝠的翅膀相似。可向收集商購買。",
+      "tw_official": ""
+    },
+    "attributes": {
+      "buy_price": 2000,
+      "sell_price": 1000,
+      "weight": 1
+    },
+    "script": "{},{},{}",
+    "dropped_by": [
+      {
+        "monster_id": 1582,
+        "name": "惡魔波利",
+        "rate": 15.0
+      },
+      {
+        "monster_id": 1928,
+        "name": "慶典 小惡魔",
+        "rate": 15.0
+      },
+      {
+        "monster_id": 2827,
+        "name": "精英 / 憤怒 蝙蝠弓箭手",
+        "rate": 12.5
+      },
+      {
+        "monster_id": 2826,
+        "name": "精英 / 菁英 蝙蝠弓箭手",
+        "rate": 12.5
+      },
+      {
+        "monster_id": 1382,
+        "name": "赤焰小惡魔",
+        "rate": 12.0
+      },
+      {
+        "monster_id": 3520,
+        "name": "生氣的信徒",
+        "rate": 10.0
+      },
+      {
+        "monster_id": 2854,
+        "name": "精英 / 雄壯小惡魔",
+        "rate": 10.0
+      },
+      {
+        "monster_id": 3512,
+        "name": "生氣的信徒",
+        "rate": 10.0
+      },
+      {
+        "monster_id": 1253,
+        "name": "蝙蝠弓箭手",
+        "rate": 2.5
+      },
+      {
+        "monster_id": 3197,
+        "name": "變種蝙蝠弓箭手",
+        "rate": 2.5
+      },
+      {
+        "monster_id": 1292,
+        "name": "狂暴小惡魔",
+        "rate": 2.25
+      },
+      {
+        "monster_id": 1109,
+        "name": "小惡魔",
+        "rate": 2.0
+      },
+      {
+        "monster_id": 20369,
+        "name": "冰凍蝙蝠弓箭手",
+        "rate": 0.75
+      }
+    ],
+    "obtained_from": [
+      "神祕箱子",
+      "神祕紫箱"
+    ]
+  },
   "1040": {
     "id": 1040,
     "name": {
@@ -8295,6 +8386,93 @@
       "神祕紫箱"
     ]
   },
+  "2254": {
+    "id": 2254,
+    "name": {
+      "zh_tw": "天使發圈",
+      "en": "上"
+    },
+    "icon_url": "/images/items/2254.gif",
+    "category": "防具",
+    "slot": "頭飾 (上)",
+    "description": {
+      "official": "搜集天使的羽毛所製成的發圈。AGI+1，LUK+1MDEF+3受到惡魔系魔物的攻擊時，可減少3%的傷害",
+      "tw_official": ""
+    },
+    "attributes": {
+      "buy_price": 20,
+      "sell_price": 10,
+      "weight": 10
+    },
+    "script": "{ bonus bMdef,3; bonus bAgi,1; bonus bLuk,1; bonus2 bSubRace,RC_Demon,3; },{},{}",
+    "dropped_by": [
+      {
+        "monster_id": 1096,
+        "name": "天使波利",
+        "rate": 0.5
+      },
+      {
+        "monster_id": 1388,
+        "name": "聖天使波利",
+        "rate": 0.03
+      },
+      {
+        "monster_id": 1755,
+        "name": "黑方體惡魔",
+        "rate": 0.01
+      },
+      {
+        "monster_id": 1754,
+        "name": "褐方體惡魔",
+        "rate": 0.01
+      }
+    ],
+    "obtained_from": [
+      "神祕箱子",
+      "神祕紫箱"
+    ]
+  },
+  "2255": {
+    "id": 2255,
+    "name": {
+      "zh_tw": "惡魔發圈",
+      "en": "上"
+    },
+    "icon_url": "/images/items/2255.gif",
+    "category": "防具",
+    "slot": "頭飾 (上)",
+    "description": {
+      "official": "依照惡魔的翅膀模樣所制做的發圈。STR+1，MDEF+2",
+      "tw_official": ""
+    },
+    "attributes": {
+      "buy_price": 20,
+      "sell_price": 10,
+      "weight": 10
+    },
+    "script": "{ bonus bMdef,2; bonus bStr,1; bonus2 bSubRace,RC_Angel,3; },{},{}",
+    "dropped_by": [
+      {
+        "monster_id": 1582,
+        "name": "惡魔波利",
+        "rate": 0.5
+      },
+      {
+        "monster_id": 1388,
+        "name": "聖天使波利",
+        "rate": 0.03
+      },
+      {
+        "monster_id": 1292,
+        "name": "狂暴小惡魔",
+        "rate": 0.02
+      }
+    ],
+    "obtained_from": [
+      "神祕箱子",
+      "神祕紫箱"
+    ]
+  },
   "2257": {
     "id": 2257,
     "name": {
@@ -10008,6 +10186,37 @@
         "monster_id": 1231,
         "name": "克瑞米",
         "rate": 0.05
+      }
+    ],
+    "obtained_from": [
+      "神祕箱子",
+      "神祕紫箱"
+    ]
+  },
+  "2324": {
+    "id": 2324,
+    "name": {
+      "zh_tw": "聖職之袍",
+      "en": "Scapulare_"
+    },
+    "icon_url": "/images/items/2324.gif",
+    "category": "防具",
+    "slot": "盔甲",
+    "description": {
+      "official": "聖職者批在肩膀上的罩衣。",
+      "tw_official": ""
+    },
+    "attributes": {
+      "buy_price": 6500,
+      "sell_price": 3250,
+      "weight": 40
+    },
+    "script": "{},{},{}",
+    "dropped_by": [
+      {
+        "monster_id": 1096,
+        "name": "天使波利",
+        "rate": 0.3
       }
     ],
     "obtained_from": [
@@ -13154,6 +13363,36 @@
       "老舊收集冊"
     ]
   },
+  "4054": {
+    "id": 4054,
+    "name": {
+      "zh_tw": "天使波利卡片",
+      "en": "Angeling_Card"
+    },
+    "icon_url": "/images/items/4054.gif",
+    "category": "卡片",
+    "slot": "盔甲類卡片",
+    "description": {
+      "official": "可將鎧甲的屬性轉變為聖屬性。",
+      "tw_official": ""
+    },
+    "attributes": {
+      "buy_price": 20,
+      "sell_price": 10,
+      "weight": 1
+    },
+    "script": "{ bonus bDefEle,Ele_Holy; },{},{}",
+    "dropped_by": [
+      {
+        "monster_id": 1096,
+        "name": "天使波利",
+        "rate": 0.01
+      }
+    ],
+    "obtained_from": [
+      "具有魔力的 卡片冊"
+    ]
+  },
   "4055": {
     "id": 4055,
     "name": {
@@ -14983,6 +15222,36 @@
     ],
     "obtained_from": [
       "老舊收集冊"
+    ]
+  },
+  "4174": {
+    "id": 4174,
+    "name": {
+      "zh_tw": "惡魔波利卡片",
+      "en": "Deviling_Card"
+    },
+    "icon_url": "/images/items/4174.gif",
+    "category": "卡片",
+    "slot": "披風類卡片",
+    "description": {
+      "official": "受到無屬性的傷害減少50%，受到所有其它屬性的傷害增加50%。套裝資料:惡魔波利卡片 & Etran Shirt[1]瓦爾基裡的披風[1] , 惡魔波利卡片 & 喬事外袍[1]惡魔波利卡片 & Hero Cape[1]",
+      "tw_official": ""
+    },
+    "attributes": {
+      "buy_price": 20,
+      "sell_price": 10,
+      "weight": 1
+    },
+    "script": "{ bonus2 bSubEle,Ele_Neutral,50; bonus2 bSubEle,Ele_Water,-50; bonus2 bSubEle,Ele_Earth,-50; bonus2 bSubEle,Ele_Fire,-50; bonus2 bSubEle,Ele_Wind,-50; bonus2 bSubEle,Ele_Poison,-50; bonus2 bSubEle,Ele_Holy,-50; bonus2 bSubEle,Ele_Dark,-50; bonus2 bSubEle,Ele_Ghost,-50; bonus2 bSubEle,Ele_Undead,-50; },{},{}",
+    "dropped_by": [
+      {
+        "monster_id": 1582,
+        "name": "惡魔波利",
+        "rate": 0.01
+      }
+    ],
+    "obtained_from": [
+      "具有魔力的 卡片冊"
     ]
   },
   "4177": {
@@ -26314,6 +26583,34 @@
     ],
     "obtained_from": []
   },
+  "694": {
+    "id": 694,
+    "name": {
+      "zh_tw": "聖靈召喚 等級3",
+      "en": "Ghost_Scroll_1_3"
+    },
+    "icon_url": "/images/items/694.gif",
+    "category": "延遲消耗類",
+    "slot": "--",
+    "description": {
+      "official": "以古代魔道學精髓而制成，並有著魔法師咒文的紙張，有著念屬性的魔法，可使用等級3的聖靈召喚。",
+      "tw_official": ""
+    },
+    "attributes": {
+      "buy_price": 1000,
+      "sell_price": 500,
+      "weight": 1
+    },
+    "script": "{ itemskill \"MG_SOULSTRIKE\",3; },{},{}",
+    "dropped_by": [
+      {
+        "monster_id": 1582,
+        "name": "惡魔波利",
+        "rate": 0.5
+      }
+    ],
+    "obtained_from": []
+  },
   "700": {
     "id": 700,
     "name": {
@@ -26817,6 +27114,49 @@
       {
         "monster_id": 1127,
         "name": "蚯蚓",
+        "rate": 0.01
+      }
+    ],
+    "obtained_from": []
+  },
+  "7023": {
+    "id": 7023,
+    "name": {
+      "zh_tw": "斷柄之刀",
+      "en": "Blade_Lost_In_Darkness"
+    },
+    "icon_url": "/images/items/7023.gif",
+    "category": "其他類",
+    "slot": "--",
+    "description": {
+      "official": "整把呈現黑色完全不透光的刀。雖然現在只剩下刀的部分而不見刀柄，但它仍舊銳利如昔，削鐵如泥。",
+      "tw_official": ""
+    },
+    "attributes": {
+      "buy_price": 12000,
+      "sell_price": 6000,
+      "weight": 4
+    },
+    "script": "{},{},{}",
+    "dropped_by": [
+      {
+        "monster_id": 1768,
+        "name": "影魔 / 幽暗咪魘",
+        "rate": 20.0
+      },
+      {
+        "monster_id": 2108,
+        "name": "影魔_E",
+        "rate": 20.0
+      },
+      {
+        "monster_id": 1219,
+        "name": "深淵騎士",
+        "rate": 0.03
+      },
+      {
+        "monster_id": 1582,
+        "name": "惡魔波利",
         "rate": 0.01
       }
     ],
@@ -39999,6 +40339,48 @@
     "obtained_from": [
       "神祕箱子",
       "神祕紫箱"
+    ]
+  },
+  "983": {
+    "id": 983,
+    "name": {
+      "zh_tw": "黑色染料",
+      "en": "Black_Dyestuffs"
+    },
+    "icon_url": "/images/items/983.gif",
+    "category": "其他類",
+    "slot": "--",
+    "description": {
+      "official": "可以將布或頭髮染成黑色，原料為多種顏色的藥草混合。",
+      "tw_official": ""
+    },
+    "attributes": {
+      "buy_price": 8000,
+      "sell_price": 4000,
+      "weight": 15
+    },
+    "script": "{},{},{}",
+    "dropped_by": [
+      {
+        "monster_id": 3450,
+        "name": "畢尤",
+        "rate": 50.0
+      },
+      {
+        "monster_id": 3448,
+        "name": "強化?答萊屍 / 改造的暗答萊屍",
+        "rate": 10.0
+      },
+      {
+        "monster_id": 1582,
+        "name": "惡魔波利",
+        "rate": 0.5
+      }
+    ],
+    "obtained_from": [
+      "神祕箱子",
+      "神祕紫箱",
+      "禮物箱/禮盒"
     ]
   },
   "985": {
