@@ -2036,7 +2036,7 @@
       "size": "中"
     },
     "stats": {
-      "hp": 1434,
+      "hp": 3266,
       "attack": {
         "min": 132,
         "max": 162
@@ -2045,7 +2045,7 @@
         "min": 82,
         "max": 102
       },
-      "defense": 52,
+      "defense": 62,
       "magic_defense": 3,
       "hit_100_percent": 261,
       "flee_95_percent": 233,
@@ -4999,7 +4999,7 @@
       "size": "大"
     },
     "stats": {
-      "hp": "830-880",
+      "hp": 862,
       "attack": {
         "min": 87,
         "max": 107
@@ -5008,7 +5008,7 @@
         "min": 38,
         "max": 46
       },
-      "defense": 55,
+      "defense": 60,
       "magic_defense": 7,
       "hit_100_percent": 233,
       "flee_95_percent": 211,
@@ -13955,7 +13955,7 @@
       "size": "小"
     },
     "stats": {
-      "hp": 1148,
+      "hp": "2500-3000",
       "attack": {
         "min": 135,
         "max": 165
@@ -14903,7 +14903,7 @@
       "size": "中"
     },
     "stats": {
-      "hp": 1520,
+      "hp": 3709,
       "attack": {
         "min": 142,
         "max": 174
@@ -14912,8 +14912,8 @@
         "min": 78,
         "max": 98
       },
-      "defense": 83,
-      "magic_defense": 17,
+      "defense": 99,
+      "magic_defense": 20,
       "hit_100_percent": 257,
       "flee_95_percent": 273,
       "base_stats": {
@@ -15111,17 +15111,17 @@
       "size": "中"
     },
     "stats": {
-      "hp": 1575,
+      "hp": 5563,
       "attack": {
         "min": 293,
         "max": 385
       },
       "magic_attack": {
         "min": 98,
-        "max": 114
+        "max": 136
       },
       "defense": 114,
-      "magic_defense": 30,
+      "magic_defense": 36,
       "hit_100_percent": 289,
       "flee_95_percent": 259,
       "base_stats": {
@@ -17168,7 +17168,7 @@
       "size": "小"
     },
     "stats": {
-      "hp": 1122,
+      "hp": 2766,
       "attack": {
         "min": 119,
         "max": 145
@@ -17177,7 +17177,7 @@
         "min": 70,
         "max": 78
       },
-      "defense": 49,
+      "defense": 58,
       "magic_defense": 3,
       "hit_100_percent": 251,
       "flee_95_percent": 255,
@@ -21945,7 +21945,7 @@
       "size": "中"
     },
     "stats": {
-      "hp": 7170,
+      "hp": 16330,
       "attack": {
         "min": 143,
         "max": 177
@@ -21954,7 +21954,7 @@
         "min": 82,
         "max": 102
       },
-      "defense": 52,
+      "defense": 62,
       "magic_defense": 3,
       "hit_100_percent": 265,
       "flee_95_percent": 233,
@@ -22050,7 +22050,7 @@
       "size": "中"
     },
     "stats": {
-      "hp": 15200,
+      "hp": 37090,
       "attack": {
         "min": 154,
         "max": 192
@@ -22059,8 +22059,8 @@
         "min": 78,
         "max": 98
       },
-      "defense": 83,
-      "magic_defense": 17,
+      "defense": 99,
+      "magic_defense": 20,
       "hit_100_percent": 257,
       "flee_95_percent": 273,
       "base_stats": {
@@ -23401,17 +23401,17 @@
       "size": "中"
     },
     "stats": {
-      "hp": 7875,
+      "hp": 27815,
       "attack": {
         "min": 329,
         "max": 439
       },
       "magic_attack": {
         "min": 98,
-        "max": 114
+        "max": 136
       },
       "defense": 114,
-      "magic_defense": 30,
+      "magic_defense": 36,
       "hit_100_percent": 289,
       "flee_95_percent": 259,
       "base_stats": {
@@ -25779,7 +25779,7 @@
       "size": "大"
     },
     "stats": {
-      "hp": 2935,
+      "hp": 4310,
       "attack": {
         "min": 95,
         "max": 119
@@ -25788,7 +25788,7 @@
         "min": 38,
         "max": 46
       },
-      "defense": 55,
+      "defense": 60,
       "magic_defense": 7,
       "hit_100_percent": 233,
       "flee_95_percent": 211,
