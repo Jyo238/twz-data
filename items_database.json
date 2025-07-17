@@ -36628,6 +36628,142 @@
       "神祕紫箱"
     ]
   },
+  "934": {
+    "id": 934,
+    "name": {
+      "zh_tw": "亡者遺物",
+      "en": "Mementos"
+    },
+    "icon_url": "/images/items/934.gif",
+    "category": "其他類",
+    "slot": "--",
+    "description": {
+      "official": "亡者要赴黃泉時相伴一起埋葬的寶物，大部分的價值都相當高。",
+      "tw_official": ""
+    },
+    "attributes": {
+      "buy_price": 600,
+      "sell_price": 300,
+      "weight": 1
+    },
+    "script": "{},{},{}",
+    "dropped_by": [
+      {
+        "monster_id": 2887,
+        "name": "精英女妖 / 迅捷惡耗女妖",
+        "rate": 37.5
+      },
+      {
+        "monster_id": 2687,
+        "name": "精英諾可伊 / 雄壯諾可伊",
+        "rate": 37.5
+      },
+      {
+        "monster_id": 2886,
+        "name": "精英 / 狡猾 愛爾蘭女妖首領",
+        "rate": 37.5
+      },
+      {
+        "monster_id": 2603,
+        "name": "精英殭屍屠戮者 / 迅捷屠殺腐屍",
+        "rate": 37.5
+      },
+      {
+        "monster_id": 2949,
+        "name": "受到詛咒的守門員",
+        "rate": 25.0
+      },
+      {
+        "monster_id": 2360,
+        "name": "狂暴木乃伊-咪魘",
+        "rate": 18.0
+      },
+      {
+        "monster_id": 2740,
+        "name": "精英木乃伊 / 雄壯木乃伊",
+        "rate": 13.75
+      },
+      {
+        "monster_id": 2739,
+        "name": "精英木乃伊 / 迅捷木乃伊",
+        "rate": 13.75
+      },
+      {
+        "monster_id": 1297,
+        "name": "狂暴木乃伊",
+        "rate": 9.0
+      },
+      {
+        "monster_id": 1164,
+        "name": "諾可伊",
+        "rate": 7.5
+      },
+      {
+        "monster_id": 3665,
+        "name": "綠腐屍",
+        "rate": 7.5
+      },
+      {
+        "monster_id": 3664,
+        "name": "綠腐屍",
+        "rate": 7.5
+      },
+      {
+        "monster_id": 1867,
+        "name": "女妖 / 惡耗女妖",
+        "rate": 7.5
+      },
+      {
+        "monster_id": 1196,
+        "name": "邪骸戰俘",
+        "rate": 7.5
+      },
+      {
+        "monster_id": 1864,
+        "name": "殭屍屠戮者 / 屠殺腐屍",
+        "rate": 7.5
+      },
+      {
+        "monster_id": 1974,
+        "name": "愛爾蘭女妖首領",
+        "rate": 7.5
+      },
+      {
+        "monster_id": 2354,
+        "name": "木乃伊-咪魘",
+        "rate": 5.0
+      },
+      {
+        "monster_id": 2822,
+        "name": "精英綠腐屍 / 憤怒綠腐屍",
+        "rate": 3.75
+      },
+      {
+        "monster_id": 2823,
+        "name": "精英綠腐屍 / 狡猾綠腐屍",
+        "rate": 3.75
+      },
+      {
+        "monster_id": 1041,
+        "name": "木乃伊",
+        "rate": 2.75
+      },
+      {
+        "monster_id": 1036,
+        "name": "綠腐屍",
+        "rate": 0.75
+      },
+      {
+        "monster_id": 2406,
+        "name": "短劍海盜骷髏",
+        "rate": 0.02
+      }
+    ],
+    "obtained_from": [
+      "神祕箱子",
+      "神祕紫箱"
+    ]
+  },
   "935": {
     "id": 935,
     "name": {
