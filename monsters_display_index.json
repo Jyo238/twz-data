@@ -3,7 +3,8 @@
     "id": 1001,
     "name": {
       "zh_tw": "蠍子",
-      "en": "SCORPION"
+      "en": "SCORPION",
+      "ko_kr": "스콜피온"
     },
     "image_url": "/images/monsters/1001.gif",
     "basic_info": {
@@ -18,8 +19,8 @@
     "stats": {
       "hp": 136,
       "attack": {
-        "min": 54,
-        "max": 68
+        "min": 7,
+        "max": 7
       },
       "magic_attack": {
         "min": 25,
@@ -36,6 +37,10 @@
         "int": 5,
         "dex": 19,
         "luk": 5
+      },
+      "exp": {
+        "base": 169.0,
+        "job": 115.0
       }
     },
     "spawns": [
@@ -122,7 +127,8 @@
         "icon_url": "images/items/7041.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1002,
@@ -322,13 +328,15 @@
         "icon_url": "images/items/4001.gif",
         "slot": "盔甲類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1004,
     "name": {
       "zh_tw": "蜂兵",
-      "en": "HORNET"
+      "en": "HORNET",
+      "ko_kr": "호넷"
     },
     "image_url": "/images/monsters/1004.gif",
     "basic_info": {
@@ -343,8 +351,8 @@
     "stats": {
       "hp": 85,
       "attack": {
-        "min": 33,
-        "max": 39
+        "min": 2,
+        "max": 2
       },
       "magic_attack": {
         "min": 18,
@@ -361,6 +369,10 @@
         "int": 5,
         "dex": 6,
         "luk": 5
+      },
+      "exp": {
+        "base": 158.0,
+        "job": 90.0
       }
     },
     "spawns": [
@@ -432,13 +444,15 @@
         "icon_url": "images/items/4019.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1005,
     "name": {
       "zh_tw": "吸血蝙蝠",
-      "en": "FARMILIAR"
+      "en": "FARMILIAR",
+      "ko_kr": "퍼밀리어"
     },
     "image_url": "/images/monsters/1005.gif",
     "basic_info": {
@@ -453,8 +467,8 @@
     "stats": {
       "hp": 396,
       "attack": {
-        "min": 93,
-        "max": 121
+        "min": 17,
+        "max": 17
       },
       "magic_attack": {
         "min": 35,
@@ -471,6 +485,10 @@
         "int": 5,
         "dex": 20,
         "luk": 1
+      },
+      "exp": {
+        "base": 240.0,
+        "job": 182.0
       }
     },
     "spawns": [
@@ -677,13 +695,15 @@
         "icon_url": "images/items/4020.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1007,
     "name": {
       "zh_tw": "綠棉蟲",
-      "en": "FABRE"
+      "en": "FABRE",
+      "ko_kr": "파브르"
     },
     "image_url": "images/monsters/1007.gif",
     "basic_info": {
@@ -698,8 +718,8 @@
     "stats": {
       "hp": 59,
       "attack": {
-        "min": 27,
-        "max": 33
+        "min": 1,
+        "max": 1
       },
       "magic_attack": {
         "min": 13,
@@ -716,6 +736,10 @@
         "int": 5,
         "dex": 12,
         "luk": 5
+      },
+      "exp": {
+        "base": 158.0,
+        "job": 65.0
       }
     },
     "spawns": [
@@ -884,13 +908,15 @@
         "icon_url": "/images/items/1704.gif",
         "slot": "弓"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1008,
     "name": {
       "zh_tw": "蟲蛹",
-      "en": "PUPA"
+      "en": "PUPA",
+      "ko_kr": "푸파"
     },
     "image_url": "/images/monsters/1008.gif",
     "basic_info": {
@@ -905,8 +931,8 @@
     "stats": {
       "hp": 51,
       "attack": {
-        "min": 15,
-        "max": 17
+        "min": 1,
+        "max": 1
       },
       "magic_attack": {
         "min": 9,
@@ -923,6 +949,10 @@
         "int": 3,
         "dex": 8,
         "luk": 6
+      },
+      "exp": {
+        "base": 157.0,
+        "job": 55.0
       }
     },
     "spawns": [
@@ -1029,13 +1059,15 @@
         "icon_url": "images/items/4003.gif",
         "slot": "盔甲類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1009,
     "name": {
       "zh_tw": "禿鷹",
-      "en": "CONDOR"
+      "en": "CONDOR",
+      "ko_kr": "콘도르"
     },
     "image_url": "/images/monsters/1009.gif",
     "basic_info": {
@@ -1050,8 +1082,8 @@
     "stats": {
       "hp": 105,
       "attack": {
-        "min": 37,
-        "max": 43
+        "min": 3,
+        "max": 3
       },
       "magic_attack": {
         "min": 17,
@@ -1068,6 +1100,10 @@
         "int": 1,
         "dex": 13,
         "luk": 5
+      },
+      "exp": {
+        "base": 160.0,
+        "job": 95.0
       }
     },
     "spawns": [
@@ -1174,13 +1210,15 @@
         "icon_url": "images/items/4015.gif",
         "slot": "披風類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1010,
     "name": {
       "zh_tw": "樹精",
-      "en": "WILOW"
+      "en": "WILOW",
+      "ko_kr": "윌로우"
     },
     "image_url": "images/monsters/1010.gif",
     "basic_info": {
@@ -1195,8 +1233,8 @@
     "stats": {
       "hp": 78,
       "attack": {
-        "min": 31,
-        "max": 37
+        "min": 1,
+        "max": 1
       },
       "magic_attack": {
         "min": 16,
@@ -1213,6 +1251,10 @@
         "int": 5,
         "dex": 12,
         "luk": 5
+      },
+      "exp": {
+        "base": 160.0,
+        "job": 75.0
       }
     },
     "spawns": [
@@ -1319,13 +1361,15 @@
         "icon_url": "images/items/4010.gif",
         "slot": "頭飾類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1011,
     "name": {
       "zh_tw": "蒼蠅",
-      "en": "CHONCHON"
+      "en": "CHONCHON",
+      "ko_kr": "촌촌"
     },
     "image_url": "images/monsters/1011.gif",
     "basic_info": {
@@ -1340,8 +1384,8 @@
     "stats": {
       "hp": 48,
       "attack": {
-        "min": 26,
-        "max": 32
+        "min": 1,
+        "max": 1
       },
       "magic_attack": {
         "min": 8,
@@ -1358,6 +1402,10 @@
         "int": 1,
         "dex": 8,
         "luk": 5
+      },
+      "exp": {
+        "base": 150.0,
+        "job": 60.0
       }
     },
     "spawns": [
@@ -1454,13 +1502,15 @@
         "icon_url": "images/items/4009.gif",
         "slot": "鞋子類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1012,
     "name": {
       "zh_tw": "羅達蛙",
-      "en": "RODA_FROG"
+      "en": "RODA_FROG",
+      "ko_kr": "로다 프로그"
     },
     "image_url": "/images/monsters/1012.gif",
     "basic_info": {
@@ -1475,8 +1525,8 @@
     "stats": {
       "hp": 140,
       "attack": {
-        "min": 40,
-        "max": 48
+        "min": 4,
+        "max": 4
       },
       "magic_attack": {
         "min": 16,
@@ -1493,6 +1543,10 @@
         "int": 1,
         "dex": 14,
         "luk": 9
+      },
+      "exp": {
+        "base": 162.0,
+        "job": 100.0
       }
     },
     "spawns": [
@@ -1565,13 +1619,15 @@
         "icon_url": "images/items/4014.gif",
         "slot": "盔甲類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1013,
     "name": {
       "zh_tw": "狼",
-      "en": "WOLF"
+      "en": "WOLF",
+      "ko_kr": "울프"
     },
     "image_url": "/images/monsters/1013.gif",
     "basic_info": {
@@ -1586,8 +1642,8 @@
     "stats": {
       "hp": 3534,
       "attack": {
-        "min": 136,
-        "max": 168
+        "min": 106,
+        "max": 106
       },
       "magic_attack": {
         "min": 67,
@@ -1604,6 +1660,10 @@
         "int": 15,
         "dex": 33,
         "luk": 5
+      },
+      "exp": {
+        "base": 1195.0,
+        "job": 975.0
       }
     },
     "spawns": [
@@ -1682,13 +1742,15 @@
         "icon_url": "/images/items/1354.gif",
         "slot": "雙手斧"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1014,
     "name": {
       "zh_tw": "魔菇",
-      "en": "SPORE"
+      "en": "SPORE",
+      "ko_kr": "스포아"
     },
     "image_url": "/images/monsters/1014.gif",
     "basic_info": {
@@ -1703,8 +1765,8 @@
     "stats": {
       "hp": 223,
       "attack": {
-        "min": 53,
-        "max": 63
+        "min": 8,
+        "max": 8
       },
       "magic_attack": {
         "min": 24,
@@ -1721,6 +1783,10 @@
         "int": 1,
         "dex": 12,
         "luk": 1
+      },
+      "exp": {
+        "base": 175.0,
+        "job": 125.0
       }
     },
     "spawns": [
@@ -1837,13 +1903,15 @@
         "icon_url": "images/items/7033.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1015,
     "name": {
       "zh_tw": "腐屍",
-      "en": "ZOMBIE"
+      "en": "ZOMBIE",
+      "ko_kr": "좀비"
     },
     "image_url": "/images/monsters/1015.gif",
     "basic_info": {
@@ -1858,8 +1926,8 @@
     "stats": {
       "hp": 204,
       "attack": {
-        "min": 62,
-        "max": 78
+        "min": 8,
+        "max": 8
       },
       "magic_attack": {
         "min": 26,
@@ -1876,6 +1944,10 @@
         "int": 1,
         "dex": 15,
         "luk": 1
+      },
+      "exp": {
+        "base": 189.0,
+        "job": 112.0
       }
     },
     "spawns": [
@@ -1972,13 +2044,15 @@
         "icon_url": "images/items/1505.gif",
         "slot": "鈍器"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1016,
     "name": {
       "zh_tw": "邪骸弓箭手",
-      "en": "ARCHER_SKELETON"
+      "en": "ARCHER_SKELETON",
+      "ko_kr": "아쳐 스켈레톤"
     },
     "image_url": "/images/monsters/1016.gif",
     "basic_info": {
@@ -1993,8 +2067,8 @@
     "stats": {
       "hp": 3280,
       "attack": {
-        "min": 156,
-        "max": 194
+        "min": 101,
+        "max": 101
       },
       "magic_attack": {
         "min": 76,
@@ -2011,6 +2085,10 @@
         "int": 10,
         "dex": 35,
         "luk": 5
+      },
+      "exp": {
+        "base": 1090.0,
+        "job": 817.0
       }
     },
     "spawns": [
@@ -2139,13 +2217,15 @@
         "icon_url": "/images/items/1354.gif",
         "slot": "雙手斧"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1018,
     "name": {
       "zh_tw": "克瑞米",
-      "en": "CREAMY"
+      "en": "CREAMY",
+      "ko_kr": "크리미"
     },
     "image_url": "/images/monsters/1018.gif",
     "basic_info": {
@@ -2160,8 +2240,8 @@
     "stats": {
       "hp": 339,
       "attack": {
-        "min": 87,
-        "max": 113
+        "min": 17,
+        "max": 17
       },
       "magic_attack": {
         "min": 24,
@@ -2178,6 +2258,10 @@
         "int": 1,
         "dex": 1,
         "luk": 20
+      },
+      "exp": {
+        "base": 269.0,
+        "job": 203.0
       }
     },
     "spawns": [
@@ -2299,13 +2383,15 @@
         "icon_url": "images/items/4040.gif",
         "slot": "裝飾品類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1019,
     "name": {
       "zh_tw": "大嘴鳥",
-      "en": "PECOPECO"
+      "en": "PECOPECO",
+      "ko_kr": "페코페코"
     },
     "image_url": "/images/monsters/1019.gif",
     "basic_info": {
@@ -2320,8 +2406,8 @@
     "stats": {
       "hp": 525,
       "attack": {
-        "min": 106,
-        "max": 138
+        "min": 25,
+        "max": 25
       },
       "magic_attack": {
         "min": 34,
@@ -2338,6 +2424,10 @@
         "int": 5,
         "dex": 28,
         "luk": 5
+      },
+      "exp": {
+        "base": 302.0,
+        "job": 231.0
       }
     },
     "spawns": [
@@ -2402,13 +2492,15 @@
         "icon_url": "images/items/4031.gif",
         "slot": "盔甲類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1020,
     "name": {
       "zh_tw": "曼陀羅魔花",
-      "en": "MANDRAGORA"
+      "en": "MANDRAGORA",
+      "ko_kr": "만드라고라"
     },
     "image_url": "/images/monsters/1020.gif",
     "basic_info": {
@@ -2423,8 +2515,8 @@
     "stats": {
       "hp": 140,
       "attack": {
-        "min": 41,
-        "max": 49
+        "min": 4,
+        "max": 4
       },
       "magic_attack": {
         "min": 20,
@@ -2441,6 +2533,10 @@
         "int": 5,
         "dex": 10,
         "luk": 5
+      },
+      "exp": {
+        "base": 170.0,
+        "job": 100.0
       }
     },
     "spawns": [
@@ -2567,13 +2663,15 @@
         "icon_url": "images/items/1352.gif",
         "slot": "雙手斧"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1023,
     "name": {
       "zh_tw": "獸人戰士",
-      "en": "ORK_WARRIOR"
+      "en": "ORK_WARRIOR",
+      "ko_kr": "오크 워리어"
     },
     "image_url": "/images/monsters/1023.gif",
     "basic_info": {
@@ -2588,8 +2686,8 @@
     "stats": {
       "hp": 3266,
       "attack": {
-        "min": 132,
-        "max": 162
+        "min": 100,
+        "max": 100
       },
       "magic_attack": {
         "min": 82,
@@ -2606,6 +2704,10 @@
         "int": 15,
         "dex": 16,
         "luk": 10
+      },
+      "exp": {
+        "base": 1126.0,
+        "job": 914.0
       }
     },
     "spawns": [
@@ -2692,13 +2794,15 @@
         "icon_url": "images/items/4066.gif",
         "slot": "盾牌類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1024,
     "name": {
       "zh_tw": "森靈",
-      "en": "WORM_TAIL"
+      "en": "WORM_TAIL",
+      "ko_kr": "웜테일"
     },
     "image_url": "/images/monsters/1024.gif",
     "basic_info": {
@@ -2713,8 +2817,8 @@
     "stats": {
       "hp": 186,
       "attack": {
-        "min": 44,
-        "max": 54
+        "min": 8,
+        "max": 8
       },
       "magic_attack": {
         "min": 25,
@@ -2731,6 +2835,10 @@
         "int": 5,
         "dex": 12,
         "luk": 35
+      },
+      "exp": {
+        "base": 180.0,
+        "job": 120.0
       }
     },
     "spawns": [
@@ -2822,13 +2930,15 @@
         "icon_url": "images/items/10015.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1025,
     "name": {
       "zh_tw": "青蛇",
-      "en": "SNAKE"
+      "en": "SNAKE",
+      "ko_kr": "보아"
     },
     "image_url": "/images/monsters/1025.gif",
     "basic_info": {
@@ -2843,8 +2953,8 @@
     "stats": {
       "hp": 203,
       "attack": {
-        "min": 46,
-        "max": 56
+        "min": 9,
+        "max": 9
       },
       "magic_attack": {
         "min": 31,
@@ -2861,6 +2971,10 @@
         "int": 10,
         "dex": 14,
         "luk": 15
+      },
+      "exp": {
+        "base": 183.0,
+        "job": 125.0
       }
     },
     "spawns": [
@@ -2952,13 +3066,15 @@
         "icon_url": "images/items/4037.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1026,
     "name": {
       "zh_tw": "殭屍",
-      "en": "MUNAK"
+      "en": "MUNAK",
+      "ko_kr": "무낙"
     },
     "image_url": "images/monsters/1026.gif",
     "basic_info": {
@@ -2973,8 +3089,8 @@
     "stats": {
       "hp": 4644,
       "attack": {
-        "min": 258,
-        "max": 332
+        "min": 141,
+        "max": 141
       },
       "magic_attack": {
         "min": 89,
@@ -2991,6 +3107,10 @@
         "int": 10,
         "dex": 33,
         "luk": 10
+      },
+      "exp": {
+        "base": 1589.0,
+        "job": 1223.0
       }
     },
     "spawns": [
@@ -3099,13 +3219,15 @@
         "icon_url": "/images/items/19849.gif",
         "slot": "服裝裝備 (上中下)"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1028,
     "name": {
       "zh_tw": "邪骸士兵",
-      "en": "SOLDIER_SKELETON"
+      "en": "SOLDIER_SKELETON",
+      "ko_kr": "솔져 스켈레톤"
     },
     "image_url": "/images/monsters/1028.gif",
     "basic_info": {
@@ -3118,10 +3240,10 @@
       "size": "中"
     },
     "stats": {
-      "hp": "1100-1150",
+      "hp": 1174,
       "attack": {
-        "min": 115,
-        "max": 149
+        "min": 43,
+        "max": 43
       },
       "magic_attack": {
         "min": 48,
@@ -3138,6 +3260,10 @@
         "int": 5,
         "dex": 29,
         "luk": 3
+      },
+      "exp": {
+        "base": 482.0,
+        "job": 336.0
       }
     },
     "spawns": [
@@ -3239,13 +3365,15 @@
         "icon_url": "images/items/4086.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1031,
     "name": {
       "zh_tw": "波波利",
-      "en": "POPORING"
+      "en": "POPORING",
+      "ko_kr": "포포링"
     },
     "image_url": "images/monsters/1031.gif",
     "basic_info": {
@@ -3260,8 +3388,8 @@
     "stats": {
       "hp": 887,
       "attack": {
-        "min": 106,
-        "max": 136
+        "min": 34,
+        "max": 34
       },
       "magic_attack": {
         "min": 62,
@@ -3278,6 +3406,10 @@
         "int": 18,
         "dex": 36,
         "luk": 5
+      },
+      "exp": {
+        "base": 415.0,
+        "job": 328.0
       }
     },
     "spawns": [
@@ -3419,13 +3551,15 @@
         "icon_url": "images/items/4033.gif",
         "slot": "裝飾品類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1033,
     "name": {
       "zh_tw": "長老樹精",
-      "en": "ELDER_WILOW"
+      "en": "ELDER_WILOW",
+      "ko_kr": "엘더 윌로우"
     },
     "image_url": "/images/monsters/1033.gif",
     "basic_info": {
@@ -3440,8 +3574,8 @@
     "stats": {
       "hp": 1088,
       "attack": {
-        "min": 108,
-        "max": 140
+        "min": 47,
+        "max": 47
       },
       "magic_attack": {
         "min": 44,
@@ -3458,6 +3592,10 @@
         "int": 1,
         "dex": 29,
         "luk": 1
+      },
+      "exp": {
+        "base": 527.0,
+        "job": 427.0
       }
     },
     "spawns": [
@@ -3546,13 +3684,15 @@
         "icon_url": "/images/items/1458.gif",
         "slot": "雙手矛/槍/戟"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1034,
     "name": {
       "zh_tw": "突變蛙",
-      "en": "THARA_FROG"
+      "en": "THARA_FROG",
+      "ko_kr": "타라 프로그"
     },
     "image_url": "/images/monsters/1034.gif",
     "basic_info": {
@@ -3567,8 +3707,8 @@
     "stats": {
       "hp": 1950,
       "attack": {
-        "min": 123,
-        "max": 153
+        "min": 49,
+        "max": 49
       },
       "magic_attack": {
         "min": 79,
@@ -3585,6 +3725,10 @@
         "int": 18,
         "dex": 30,
         "luk": 2
+      },
+      "exp": {
+        "base": 600.0,
+        "job": 502.0
       }
     },
     "spawns": [
@@ -3673,13 +3817,15 @@
         "icon_url": "images/items/1520.gif",
         "slot": "鈍器"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1035,
     "name": {
       "zh_tw": "赤蒼蠅",
-      "en": "HUNTER_FLY"
+      "en": "HUNTER_FLY",
+      "ko_kr": "헌터 플라이"
     },
     "image_url": "/images/monsters/1035.gif",
     "basic_info": {
@@ -3694,8 +3840,8 @@
     "stats": {
       "hp": 5991,
       "attack": {
-        "min": 275,
-        "max": 367
+        "min": 153,
+        "max": 153
       },
       "magic_attack": {
         "min": 102,
@@ -3712,6 +3858,10 @@
         "int": 25,
         "dex": 100,
         "luk": 15
+      },
+      "exp": {
+        "base": 1852.0,
+        "job": 1675.0
       }
     },
     "spawns": [
@@ -3778,13 +3928,15 @@
         "icon_url": "images/items/4115.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1037,
     "name": {
       "zh_tw": "黑蛇",
-      "en": "SIDE_WINDER"
+      "en": "SIDE_WINDER",
+      "ko_kr": "사이드 와인더"
     },
     "image_url": "/images/monsters/1037.gif",
     "basic_info": {
@@ -3799,8 +3951,8 @@
     "stats": {
       "hp": 15958,
       "attack": {
-        "min": 374,
-        "max": 502
+        "min": 274,
+        "max": 274
       },
       "magic_attack": {
         "min": 111,
@@ -3817,6 +3969,10 @@
         "int": 20,
         "dex": 73,
         "luk": 15
+      },
+      "exp": {
+        "base": 4004.0,
+        "job": 3673.0
       }
     },
     "spawns": [
@@ -3886,13 +4042,15 @@
         "icon_url": "images/items/4117.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1040,
     "name": {
       "zh_tw": "巨石怪",
-      "en": "GOLEM"
+      "en": "GOLEM",
+      "ko_kr": "고렘"
     },
     "image_url": "images/monsters/1040.gif",
     "basic_info": {
@@ -3907,8 +4065,8 @@
     "stats": {
       "hp": 11933,
       "attack": {
-        "min": 297,
-        "max": 381
+        "min": 223,
+        "max": 223
       },
       "magic_attack": {
         "min": 83,
@@ -3925,6 +4083,10 @@
         "int": 5,
         "dex": 34,
         "luk": 5
+      },
+      "exp": {
+        "base": 2896.0,
+        "job": 2608.0
       }
     },
     "spawns": [
@@ -3996,13 +4158,15 @@
         "icon_url": "images/items/4072.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1042,
     "name": {
       "zh_tw": "綠蒼蠅",
-      "en": "STEEL_CHONCHON"
+      "en": "STEEL_CHONCHON",
+      "ko_kr": "스틸 촌촌"
     },
     "image_url": "/images/monsters/1042.gif",
     "basic_info": {
@@ -4017,8 +4181,8 @@
     "stats": {
       "hp": 3368,
       "attack": {
-        "min": 139,
-        "max": 171
+        "min": 100,
+        "max": 100
       },
       "magic_attack": {
         "min": 82,
@@ -4035,6 +4199,10 @@
         "int": 10,
         "dex": 56,
         "luk": 10
+      },
+      "exp": {
+        "base": 1296.0,
+        "job": 1121.0
       }
     },
     "spawns": [
@@ -4106,7 +4274,8 @@
         "icon_url": "images/items/4042.gif",
         "slot": "盔甲類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1044,
@@ -4233,7 +4402,8 @@
         "icon_url": "/images/items/1611.gif",
         "slot": "單手杖"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 1045,
@@ -4346,13 +4516,15 @@
         "icon_url": "images/items/4105.gif",
         "slot": "盔甲類卡片"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 1047,
     "name": {
       "zh_tw": "大嘴鳥蛋",
-      "en": "PECOPECO_EGG"
+      "en": "PECOPECO_EGG",
+      "ko_kr": "페코페코 알"
     },
     "image_url": "images/monsters/1047.gif",
     "basic_info": {
@@ -4367,8 +4539,8 @@
     "stats": {
       "hp": 70,
       "attack": {
-        "min": 11,
-        "max": 13
+        "min": 1,
+        "max": 1
       },
       "magic_attack": {
         "min": 15,
@@ -4385,6 +4557,10 @@
         "int": 8,
         "dex": 10,
         "luk": 5
+      },
+      "exp": {
+        "base": 152.0,
+        "job": 70.0
       }
     },
     "spawns": [
@@ -4474,13 +4650,15 @@
         "icon_url": "images/items/4007.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1048,
     "name": {
       "zh_tw": "盜蟲卵",
-      "en": "THIEF_BUG_EGG"
+      "en": "THIEF_BUG_EGG",
+      "ko_kr": "도둑벌레 알"
     },
     "image_url": "/images/monsters/1048.gif",
     "basic_info": {
@@ -4495,8 +4673,8 @@
     "stats": {
       "hp": 350,
       "attack": {
-        "min": 30,
-        "max": 32
+        "min": 1,
+        "max": 1
       },
       "magic_attack": {
         "min": 21,
@@ -4513,6 +4691,10 @@
         "int": 1,
         "dex": 3,
         "luk": 15
+      },
+      "exp": {
+        "base": 219.0,
+        "job": 163.0
       }
     },
     "spawns": [
@@ -4689,7 +4871,8 @@
         "icon_url": "images/items/4012.gif",
         "slot": "盾牌類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1049,
@@ -4814,13 +4997,15 @@
         "icon_url": "images/items/4008.gif",
         "slot": "盔甲類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1050,
     "name": {
       "zh_tw": "蛋殼小雞",
-      "en": "PICKY_"
+      "en": "PICKY_",
+      "ko_kr": "픽키(알픽키)"
     },
     "image_url": "images/monsters/1050.gif",
     "basic_info": {
@@ -4835,8 +5020,8 @@
     "stats": {
       "hp": 77,
       "attack": {
-        "min": 39,
-        "max": 47
+        "min": 1,
+        "max": 1
       },
       "magic_attack": {
         "min": 29,
@@ -4853,6 +5038,10 @@
         "int": 5,
         "dex": 9,
         "luk": 3
+      },
+      "exp": {
+        "base": 155.0,
+        "job": 85.0
       }
     },
     "spawns": [
@@ -4924,13 +5113,16 @@
         "icon_url": "images/items/10012.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "special_status": "알픽키",
+    "is_valid": "True"
   },
   {
     "id": 1051,
     "name": {
       "zh_tw": "盜蟲",
-      "en": "THIEF_BUG"
+      "en": "THIEF_BUG",
+      "ko_kr": "도둑벌레"
     },
     "image_url": "images/monsters/1051.gif",
     "basic_info": {
@@ -4945,8 +5137,8 @@
     "stats": {
       "hp": 301,
       "attack": {
-        "min": 84,
-        "max": 108
+        "min": 13,
+        "max": 13
       },
       "magic_attack": {
         "min": 25,
@@ -4963,6 +5155,10 @@
         "int": 1,
         "dex": 12,
         "luk": 5
+      },
+      "exp": {
+        "base": 237.0,
+        "job": 177.0
       }
     },
     "spawns": [
@@ -5029,13 +5225,15 @@
         "icon_url": "images/items/4016.gif",
         "slot": "盔甲類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1052,
     "name": {
       "zh_tw": "蝗蟲",
-      "en": "ROCKER"
+      "en": "ROCKER",
+      "ko_kr": "로커"
     },
     "image_url": "/images/monsters/1052.gif",
     "basic_info": {
@@ -5048,10 +5246,10 @@
       "size": "中"
     },
     "stats": {
-      "hp": 185,
+      "hp": 155,
       "attack": {
-        "min": 42,
-        "max": 50
+        "min": 6,
+        "max": 6
       },
       "magic_attack": {
         "min": 28,
@@ -5068,6 +5266,10 @@
         "int": 10,
         "dex": 17,
         "luk": 5
+      },
+      "exp": {
+        "base": 174.0,
+        "job": 110.0
       }
     },
     "spawns": [
@@ -5144,7 +5346,8 @@
         "icon_url": "images/items/4021.gif",
         "slot": "盔甲類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1053,
@@ -5309,7 +5512,8 @@
         "icon_url": "images/items/4026.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 1054,
@@ -5449,13 +5653,15 @@
         "icon_url": "images/items/4050.gif",
         "slot": "鞋子類卡片"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 1055,
     "name": {
       "zh_tw": "摩卡",
-      "en": "MUKA"
+      "en": "MUKA",
+      "ko_kr": "무카"
     },
     "image_url": "/images/monsters/1055.gif",
     "basic_info": {
@@ -5470,8 +5676,8 @@
     "stats": {
       "hp": 463,
       "attack": {
-        "min": 93,
-        "max": 121
+        "min": 20,
+        "max": 20
       },
       "magic_attack": {
         "min": 34,
@@ -5488,6 +5694,10 @@
         "int": 5,
         "dex": 43,
         "luk": 5
+      },
+      "exp": {
+        "base": 281.0,
+        "job": 203.0
       }
     },
     "spawns": [
@@ -5564,7 +5774,8 @@
         "icon_url": "images/items/4036.gif",
         "slot": "裝飾品類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1056,
@@ -5701,13 +5912,15 @@
         "icon_url": "images/items/1216.gif",
         "slot": "短劍"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1057,
     "name": {
       "zh_tw": "溜溜猴",
-      "en": "YOYO"
+      "en": "YOYO",
+      "ko_kr": "요요"
     },
     "image_url": "/images/monsters/1057.gif",
     "basic_info": {
@@ -5722,8 +5935,8 @@
     "stats": {
       "hp": 1564,
       "attack": {
-        "min": 108,
-        "max": 134
+        "min": 60,
+        "max": 60
       },
       "magic_attack": {
         "min": 65,
@@ -5740,6 +5953,10 @@
         "int": 20,
         "dex": 19,
         "luk": 10
+      },
+      "exp": {
+        "base": 676.0,
+        "job": 534.0
       }
     },
     "spawns": [
@@ -5818,13 +6035,15 @@
         "icon_url": "/images/items/1125.gif",
         "slot": "單手劍"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1058,
     "name": {
       "zh_tw": "重金屬蝗蟲",
-      "en": "METALLER"
+      "en": "METALLER",
+      "ko_kr": "메틀러"
     },
     "image_url": "/images/monsters/1058.gif",
     "basic_info": {
@@ -5839,8 +6058,8 @@
     "stats": {
       "hp": 5888,
       "attack": {
-        "min": 263,
-        "max": 343
+        "min": 151,
+        "max": 151
       },
       "magic_attack": {
         "min": 84,
@@ -5857,6 +6076,10 @@
         "int": 1,
         "dex": 52,
         "luk": 31
+      },
+      "exp": {
+        "base": 1845.0,
+        "job": 1635.0
       }
     },
     "spawns": [
@@ -5945,13 +6168,15 @@
         "icon_url": "/images/items/1157.gif",
         "slot": "雙手劍"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1060,
     "name": {
       "zh_tw": "大腳熊",
-      "en": "BIGFOOT"
+      "en": "BIGFOOT",
+      "ko_kr": "빅풋"
     },
     "image_url": "/images/monsters/1060.gif",
     "basic_info": {
@@ -5966,8 +6191,8 @@
     "stats": {
       "hp": 862,
       "attack": {
-        "min": 87,
-        "max": 107
+        "min": 36,
+        "max": 36
       },
       "magic_attack": {
         "min": 38,
@@ -5984,6 +6209,10 @@
         "int": 1,
         "dex": 12,
         "luk": 1
+      },
+      "exp": {
+        "base": 400.0,
+        "job": 300.0
       }
     },
     "spawns": [
@@ -6055,13 +6284,15 @@
         "icon_url": "images/items/4074.gif",
         "slot": "盾牌類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1063,
     "name": {
       "zh_tw": "瘋兔",
-      "en": "LUNATIC"
+      "en": "LUNATIC",
+      "ko_kr": "루나틱"
     },
     "image_url": "/images/monsters/1063.gif",
     "basic_info": {
@@ -6076,8 +6307,8 @@
     "stats": {
       "hp": 48,
       "attack": {
-        "min": 21,
-        "max": 27
+        "min": 1,
+        "max": 1
       },
       "magic_attack": {
         "min": 4,
@@ -6094,6 +6325,10 @@
         "int": 1,
         "dex": 8,
         "luk": 5
+      },
+      "exp": {
+        "base": 150.0,
+        "job": 50.0
       }
     },
     "spawns": [
@@ -6225,13 +6460,15 @@
         "icon_url": "images/items/4006.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1064,
     "name": {
       "zh_tw": "邪骸食人魚",
-      "en": "MEGALODON"
+      "en": "MEGALODON",
+      "ko_kr": "메갈로돈"
     },
     "image_url": "/images/monsters/1064.gif",
     "basic_info": {
@@ -6246,8 +6483,8 @@
     "stats": {
       "hp": 2872,
       "attack": {
-        "min": 174,
-        "max": 222
+        "min": 85,
+        "max": 85
       },
       "magic_attack": {
         "min": 96,
@@ -6264,6 +6501,10 @@
         "int": 28,
         "dex": 29,
         "luk": 15
+      },
+      "exp": {
+        "base": 913.0,
+        "job": 671.0
       }
     },
     "spawns": [
@@ -6352,7 +6593,8 @@
         "icon_url": "images/items/1226.gif",
         "slot": "短劍"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1065,
@@ -6472,7 +6714,8 @@
         "icon_url": "images/items/4111.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 1066,
@@ -6619,7 +6862,8 @@
         "icon_url": "images/items/1511.gif",
         "slot": "鈍器"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 1067,
@@ -6759,13 +7003,15 @@
         "icon_url": "images/items/4061.gif",
         "slot": "盔甲類卡片"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 1068,
     "name": {
       "zh_tw": "海葵",
-      "en": "HYDRA"
+      "en": "HYDRA",
+      "ko_kr": "히드라"
     },
     "image_url": "/images/monsters/1068.gif",
     "basic_info": {
@@ -6780,8 +7026,8 @@
     "stats": {
       "hp": 1123,
       "attack": {
-        "min": 72,
-        "max": 86
+        "min": 31,
+        "max": 31
       },
       "magic_attack": {
         "min": 39,
@@ -6798,6 +7044,10 @@
         "int": 1,
         "dex": 35,
         "luk": 2
+      },
+      "exp": {
+        "base": 440.0,
+        "job": 357.0
       }
     },
     "spawns": [
@@ -7079,7 +7329,8 @@
         "icon_url": "images/items/4035.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1069,
@@ -7219,7 +7470,8 @@
         "icon_url": "images/items/4089.gif",
         "slot": "盔甲類卡片"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 1070,
@@ -7399,7 +7651,8 @@
         "icon_url": "images/items/4027.gif",
         "slot": "裝飾品類卡片"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 1071,
@@ -7539,13 +7792,15 @@
         "icon_url": "images/items/7477.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 1073,
     "name": {
       "zh_tw": "卡拉蟹",
-      "en": "CRAB"
+      "en": "CRAB",
+      "ko_kr": "게"
     },
     "image_url": "/images/monsters/1073.gif",
     "basic_info": {
@@ -7560,8 +7815,8 @@
     "stats": {
       "hp": 3072,
       "attack": {
-        "min": 120,
-        "max": 148
+        "min": 62,
+        "max": 62
       },
       "magic_attack": {
         "min": 57,
@@ -7578,6 +7833,10 @@
         "int": 7,
         "dex": 28,
         "luk": 15
+      },
+      "exp": {
+        "base": 1028.0,
+        "job": 872.0
       }
     },
     "spawns": [
@@ -7669,13 +7928,15 @@
         "icon_url": "/images/items/1711.gif",
         "slot": "弓"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1074,
     "name": {
       "zh_tw": "貝殼魔靈",
-      "en": "SHELLFISH"
+      "en": "SHELLFISH",
+      "ko_kr": "조개"
     },
     "image_url": "/images/monsters/1074.gif",
     "basic_info": {
@@ -7690,8 +7951,8 @@
     "stats": {
       "hp": 4773,
       "attack": {
-        "min": 151,
-        "max": 181
+        "min": 85,
+        "max": 85
       },
       "magic_attack": {
         "min": 90,
@@ -7708,6 +7969,10 @@
         "int": 25,
         "dex": 29,
         "luk": 10
+      },
+      "exp": {
+        "base": 1429.0,
+        "job": 1245.0
       }
     },
     "spawns": [
@@ -7806,13 +8071,15 @@
         "icon_url": "images/items/1508.gif",
         "slot": "鈍器"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1076,
     "name": {
       "zh_tw": "邪骸戰士",
-      "en": "SKELETON"
+      "en": "SKELETON",
+      "ko_kr": "스켈레톤"
     },
     "image_url": "/images/monsters/1076.gif",
     "basic_info": {
@@ -7827,8 +8094,8 @@
     "stats": {
       "hp": 600,
       "attack": {
-        "min": 113,
-        "max": 145
+        "min": 25,
+        "max": 25
       },
       "magic_attack": {
         "min": 48,
@@ -7845,6 +8112,10 @@
         "int": 5,
         "dex": 19,
         "luk": 1
+      },
+      "exp": {
+        "base": 317.0,
+        "job": 210.0
       }
     },
     "spawns": [
@@ -7926,13 +8197,15 @@
         "icon_url": "images/items/4025.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1077,
     "name": {
       "zh_tw": "毒魔菇",
-      "en": "POISON_SPORE"
+      "en": "POISON_SPORE",
+      "ko_kr": "포이즌 스포아"
     },
     "image_url": "/images/monsters/1077.gif",
     "basic_info": {
@@ -7947,8 +8220,8 @@
     "stats": {
       "hp": 583,
       "attack": {
-        "min": 99,
-        "max": 127
+        "min": 25,
+        "max": 25
       },
       "magic_attack": {
         "min": 41,
@@ -7965,6 +8238,10 @@
         "int": 5,
         "dex": 20,
         "luk": 5
+      },
+      "exp": {
+        "base": 321.0,
+        "job": 247.0
       }
     },
     "spawns": [
@@ -8058,7 +8335,8 @@
         "icon_url": "/images/items/1458.gif",
         "slot": "雙手矛/槍/戟"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1078,
@@ -8298,7 +8576,8 @@
         "icon_url": "images/items/7933.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 1079,
@@ -8508,7 +8787,8 @@
         "icon_url": "images/items/7932.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 1080,
@@ -8863,7 +9143,8 @@
         "icon_url": "images/items/7934.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 1081,
@@ -9088,7 +9369,8 @@
         "icon_url": "images/items/7935.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 1082,
@@ -9258,7 +9540,8 @@
         "icon_url": "images/items/7935.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 1083,
@@ -9493,7 +9776,8 @@
         "icon_url": "images/items/714.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 1084,
@@ -9723,7 +10007,8 @@
         "icon_url": "images/items/7033.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 1085,
@@ -9918,17 +10203,19 @@
         "icon_url": "images/items/7033.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 1088,
     "name": {
       "zh_tw": "搖滾蝗蟲",
-      "en": "VOCAL"
+      "en": "VOCAL",
+      "ko_kr": "보컬"
     },
     "image_url": "images/monsters/1088.gif",
     "basic_info": {
-      "level": 15,
+      "level": 18,
       "race": "昆蟲",
       "element": {
         "type": "地",
@@ -9939,8 +10226,8 @@
     "stats": {
       "hp": 3317,
       "attack": {
-        "min": 151,
-        "max": 181
+        "min": 71,
+        "max": 71
       },
       "magic_attack": {
         "min": 55,
@@ -9957,6 +10244,10 @@
         "int": 30,
         "dex": 53,
         "luk": 40
+      },
+      "exp": {
+        "base": 7350.0,
+        "job": 3900.0
       }
     },
     "spawns": [
@@ -10052,13 +10343,15 @@
         "icon_url": "images/items/1408.gif",
         "slot": "單手矛/槍/戟"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1089,
     "name": {
       "zh_tw": "蛙王",
-      "en": "TOAD"
+      "en": "TOAD",
+      "ko_kr": "토드"
     },
     "image_url": "images/monsters/1089.gif",
     "basic_info": {
@@ -10073,8 +10366,8 @@
     "stats": {
       "hp": 1052,
       "attack": {
-        "min": 115,
-        "max": 143
+        "min": 77,
+        "max": 77
       },
       "magic_attack": {
         "min": 50,
@@ -10091,6 +10384,10 @@
         "int": 10,
         "dex": 24,
         "luk": 5
+      },
+      "exp": {
+        "base": 1937.0,
+        "job": 1451.0
       }
     },
     "spawns": [
@@ -10162,13 +10459,15 @@
         "icon_url": "images/items/7938.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1090,
     "name": {
       "zh_tw": "波利之王",
-      "en": "MASTERING"
+      "en": "MASTERING",
+      "ko_kr": "마스터링"
     },
     "image_url": "/images/monsters/1090.gif",
     "basic_info": {
@@ -10183,8 +10482,8 @@
     "stats": {
       "hp": 3780,
       "attack": {
-        "min": 141,
-        "max": 173
+        "min": 96,
+        "max": 96
       },
       "magic_attack": {
         "min": 82,
@@ -10201,6 +10500,10 @@
         "int": 12,
         "dex": 29,
         "luk": 60
+      },
+      "exp": {
+        "base": 7065.0,
+        "job": 5310.0
       }
     },
     "spawns": [
@@ -10267,13 +10570,15 @@
         "icon_url": "images/items/7938.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1091,
     "name": {
       "zh_tw": "龍蠅",
-      "en": "DRAGON_FLY"
+      "en": "DRAGON_FLY",
+      "ko_kr": "드래곤 플라이"
     },
     "image_url": "/images/monsters/1091.gif",
     "basic_info": {
@@ -10288,8 +10593,8 @@
     "stats": {
       "hp": 3477,
       "attack": {
-        "min": 165,
-        "max": 207
+        "min": 122,
+        "max": 122
       },
       "magic_attack": {
         "min": 85,
@@ -10306,6 +10611,10 @@
         "int": 15,
         "dex": 44,
         "luk": 15
+      },
+      "exp": {
+        "base": 9072.0,
+        "job": 6787.0
       }
     },
     "spawns": [
@@ -10387,13 +10696,15 @@
         "icon_url": "images/items/4179.gif",
         "slot": "披風類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1093,
     "name": {
       "zh_tw": "藍瘋兔",
-      "en": "ECLIPSE"
+      "en": "ECLIPSE",
+      "ko_kr": "이클립스"
     },
     "image_url": "images/monsters/1093.gif",
     "basic_info": {
@@ -10408,8 +10719,8 @@
     "stats": {
       "hp": 1168,
       "attack": {
-        "min": 99,
-        "max": 123
+        "min": 66,
+        "max": 66
       },
       "magic_attack": {
         "min": 62,
@@ -10426,6 +10737,10 @@
         "int": 17,
         "dex": 27,
         "luk": 55
+      },
+      "exp": {
+        "base": 2889.0,
+        "job": 2169.0
       }
     },
     "spawns": [
@@ -10492,13 +10807,15 @@
         "icon_url": "images/items/7938.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1094,
     "name": {
       "zh_tw": "蝸牛",
-      "en": "AMBERNITE"
+      "en": "AMBERNITE",
+      "ko_kr": "엠버 나이트"
     },
     "image_url": "/images/monsters/1094.gif",
     "basic_info": {
@@ -10513,8 +10830,8 @@
     "stats": {
       "hp": 265,
       "attack": {
-        "min": 55,
-        "max": 67
+        "min": 9,
+        "max": 9
       },
       "magic_attack": {
         "min": 36,
@@ -10531,6 +10848,10 @@
         "int": 10,
         "dex": 21,
         "luk": 5
+      },
+      "exp": {
+        "base": 178.0,
+        "job": 130.0
       }
     },
     "spawns": [
@@ -10607,13 +10928,15 @@
         "icon_url": "images/items/4032.gif",
         "slot": "盾牌類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1095,
     "name": {
       "zh_tw": "白蟻",
-      "en": "ANDRE"
+      "en": "ANDRE",
+      "ko_kr": "앙드레"
     },
     "image_url": "/images/monsters/1095.gif",
     "basic_info": {
@@ -10628,8 +10951,8 @@
     "stats": {
       "hp": 1063,
       "attack": {
-        "min": 84,
-        "max": 106
+        "min": 44,
+        "max": 44
       },
       "magic_attack": {
         "min": 57,
@@ -10646,6 +10969,10 @@
         "int": 10,
         "dex": 24,
         "luk": 10
+      },
+      "exp": {
+        "base": 524.0,
+        "job": 403.0
       }
     },
     "spawns": [
@@ -10764,13 +11091,15 @@
         "icon_url": "/images/items/1156.gif",
         "slot": "雙手劍"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1096,
     "name": {
       "zh_tw": "天使波利",
-      "en": "ANGELING"
+      "en": "ANGELING",
+      "ko_kr": "엔젤링"
     },
     "image_url": "/images/monsters/1096.gif",
     "basic_info": {
@@ -10785,8 +11114,8 @@
     "stats": {
       "hp": 128700,
       "attack": {
-        "min": 447,
-        "max": 605
+        "min": 508,
+        "max": 508
       },
       "magic_attack": {
         "min": 283,
@@ -10803,6 +11132,10 @@
         "int": 105,
         "dex": 80,
         "luk": 200
+      },
+      "exp": {
+        "base": 218790.0,
+        "job": 87490.0
       }
     },
     "spawns": [
@@ -10867,13 +11200,15 @@
         "icon_url": "/images/items/4054.gif",
         "slot": "盔甲類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1097,
     "name": {
       "zh_tw": "白蟻幼蟲",
-      "en": "ANT_EGG"
+      "en": "ANT_EGG",
+      "ko_kr": "개미 알"
     },
     "image_url": "/images/monsters/1097.gif",
     "basic_info": {
@@ -10888,8 +11223,8 @@
     "stats": {
       "hp": 773,
       "attack": {
-        "min": 33,
-        "max": 35
+        "min": 1,
+        "max": 1
       },
       "magic_attack": {
         "min": 33,
@@ -10906,6 +11241,10 @@
         "int": 5,
         "dex": 10,
         "luk": 30
+      },
+      "exp": {
+        "base": 361.0,
+        "job": 282.0
       }
     },
     "spawns": [
@@ -11010,13 +11349,15 @@
         "icon_url": "images/items/1214.gif",
         "slot": "短劍"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1099,
     "name": {
       "zh_tw": "艾吉歐蜈蚣",
-      "en": "ARGIOPE"
+      "en": "ARGIOPE",
+      "ko_kr": "아르지오프"
     },
     "image_url": "/images/monsters/1099.gif",
     "basic_info": {
@@ -11031,8 +11372,8 @@
     "stats": {
       "hp": 22508,
       "attack": {
-        "min": 391,
-        "max": 521
+        "min": 351,
+        "max": 351
       },
       "magic_attack": {
         "min": 140,
@@ -11049,6 +11390,10 @@
         "int": 30,
         "dex": 24,
         "luk": 30
+      },
+      "exp": {
+        "base": 5006.0,
+        "job": 4627.0
       }
     },
     "spawns": [
@@ -11120,13 +11465,15 @@
         "icon_url": "/images/items/1716.gif",
         "slot": "弓"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1100,
     "name": {
       "zh_tw": "艾斯蜘蛛",
-      "en": "ARGOS"
+      "en": "ARGOS",
+      "ko_kr": "아르고스"
     },
     "image_url": "/images/monsters/1100.gif",
     "basic_info": {
@@ -11141,8 +11488,8 @@
     "stats": {
       "hp": 4368,
       "attack": {
-        "min": 161,
-        "max": 201
+        "min": 116,
+        "max": 116
       },
       "magic_attack": {
         "min": 75,
@@ -11159,6 +11506,10 @@
         "int": 5,
         "dex": 26,
         "luk": 15
+      },
+      "exp": {
+        "base": 1243.0,
+        "job": 1071.0
       }
     },
     "spawns": [
@@ -11247,13 +11598,15 @@
         "icon_url": "/images/items/1517.gif",
         "slot": "鈍器"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1103,
     "name": {
       "zh_tw": "刺蝟蟲",
-      "en": "CARAMEL"
+      "en": "CARAMEL",
+      "ko_kr": "카라멜"
     },
     "image_url": "images/monsters/1103.gif",
     "basic_info": {
@@ -11268,8 +11621,8 @@
     "stats": {
       "hp": 473,
       "attack": {
-        "min": 97,
-        "max": 125
+        "min": 23,
+        "max": 23
       },
       "magic_attack": {
         "min": 41,
@@ -11286,6 +11639,10 @@
         "int": 10,
         "dex": 32,
         "luk": 5
+      },
+      "exp": {
+        "base": 317.0,
+        "job": 231.0
       }
     },
     "spawns": [
@@ -11364,13 +11721,15 @@
         "icon_url": "images/items/1152.gif",
         "slot": "雙手劍"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1104,
     "name": {
       "zh_tw": "松鼠",
-      "en": "COCO"
+      "en": "COCO",
+      "ko_kr": "코코"
     },
     "image_url": "/images/monsters/1104.gif",
     "basic_info": {
@@ -11385,8 +11744,8 @@
     "stats": {
       "hp": 1564,
       "attack": {
-        "min": 116,
-        "max": 146
+        "min": 60,
+        "max": 60
       },
       "magic_attack": {
         "min": 65,
@@ -11403,6 +11762,10 @@
         "int": 20,
         "dex": 38,
         "luk": 10
+      },
+      "exp": {
+        "base": 676.0,
+        "job": 534.0
       }
     },
     "spawns": [
@@ -11484,13 +11847,15 @@
         "icon_url": "images/items/4041.gif",
         "slot": "頭飾類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1105,
     "name": {
       "zh_tw": "兵蟻",
-      "en": "DENIRO"
+      "en": "DENIRO",
+      "ko_kr": "데니로"
     },
     "image_url": "images/monsters/1105.gif",
     "basic_info": {
@@ -11505,8 +11870,8 @@
     "stats": {
       "hp": 897,
       "attack": {
-        "min": 82,
-        "max": 100
+        "min": 37,
+        "max": 37
       },
       "magic_attack": {
         "min": 52,
@@ -11523,6 +11888,10 @@
         "int": 10,
         "dex": 23,
         "luk": 15
+      },
+      "exp": {
+        "base": 473.0,
+        "job": 359.0
       }
     },
     "spawns": [
@@ -11641,13 +12010,15 @@
         "icon_url": "/images/items/1125.gif",
         "slot": "單手劍"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1107,
     "name": {
       "zh_tw": "沙漠幼狼",
-      "en": "DESERT_WOLF_B"
+      "en": "DESERT_WOLF_B",
+      "ko_kr": "새끼 데저트 울프"
     },
     "image_url": "/images/monsters/1107.gif",
     "basic_info": {
@@ -11662,8 +12033,8 @@
     "stats": {
       "hp": 113,
       "attack": {
-        "min": 50,
-        "max": 64
+        "min": 5,
+        "max": 5
       },
       "magic_attack": {
         "min": 24,
@@ -11680,6 +12051,10 @@
         "int": 5,
         "dex": 17,
         "luk": 7
+      },
+      "exp": {
+        "base": 164.0,
+        "job": 105.0
       }
     },
     "spawns": [
@@ -11779,7 +12154,8 @@
         "icon_url": "images/items/4023.gif",
         "slot": "盔甲類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1108,
@@ -11899,13 +12275,15 @@
         "icon_url": "images/items/5011.gif",
         "slot": "頭飾 (上)"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 1110,
     "name": {
       "zh_tw": "土人",
-      "en": "DOKEBI"
+      "en": "DOKEBI",
+      "ko_kr": "도깨비"
     },
     "image_url": "/images/monsters/1110.gif",
     "basic_info": {
@@ -11920,8 +12298,8 @@
     "stats": {
       "hp": 6095,
       "attack": {
-        "min": 386,
-        "max": 520
+        "min": 161,
+        "max": 161
       },
       "magic_attack": {
         "min": 109,
@@ -11938,6 +12316,10 @@
         "int": 20,
         "dex": 66,
         "luk": 25
+      },
+      "exp": {
+        "base": 2213.0,
+        "job": 2023.0
       }
     },
     "spawns": [
@@ -12012,13 +12394,15 @@
         "icon_url": "/images/items/1613.gif",
         "slot": "單手杖"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1111,
     "name": {
       "zh_tw": "紅蝙蝠",
-      "en": "DRAINLIAR"
+      "en": "DRAINLIAR",
+      "ko_kr": "드레인리어"
     },
     "image_url": "/images/monsters/1111.gif",
     "basic_info": {
@@ -12033,8 +12417,8 @@
     "stats": {
       "hp": 2777,
       "attack": {
-        "min": 162,
-        "max": 202
+        "min": 73,
+        "max": 73
       },
       "magic_attack": {
         "min": 98,
@@ -12051,6 +12435,10 @@
         "int": 22,
         "dex": 50,
         "luk": 20
+      },
+      "exp": {
+        "base": 869.0,
+        "job": 749.0
       }
     },
     "spawns": [
@@ -12139,13 +12527,15 @@
         "icon_url": "/images/items/1127.gif",
         "slot": "單手劍"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1113,
     "name": {
       "zh_tw": "土波利",
-      "en": "DROPS"
+      "en": "DROPS",
+      "ko_kr": "드롭프스"
     },
     "image_url": "/images/monsters/1113.gif",
     "basic_info": {
@@ -12160,8 +12550,8 @@
     "stats": {
       "hp": 46,
       "attack": {
-        "min": 19,
-        "max": 25
+        "min": 1,
+        "max": 1
       },
       "magic_attack": {
         "min": 3,
@@ -12178,6 +12568,10 @@
         "int": 1,
         "dex": 6,
         "luk": 2
+      },
+      "exp": {
+        "base": 150.0,
+        "job": 45.0
       }
     },
     "spawns": [
@@ -12284,13 +12678,15 @@
         "icon_url": "images/items/4004.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1114,
     "name": {
       "zh_tw": "獵蠅",
-      "en": "DUSTINESS"
+      "en": "DUSTINESS",
+      "ko_kr": "더스티네스"
     },
     "image_url": "images/monsters/1114.gif",
     "basic_info": {
@@ -12305,8 +12701,8 @@
     "stats": {
       "hp": 9614,
       "attack": {
-        "min": 240,
-        "max": 308
+        "min": 191,
+        "max": 191
       },
       "magic_attack": {
         "min": 143,
@@ -12323,6 +12719,10 @@
         "int": 60,
         "dex": 75,
         "luk": 105
+      },
+      "exp": {
+        "base": 2995.0,
+        "job": 2704.0
       }
     },
     "spawns": [
@@ -12382,13 +12782,15 @@
         "icon_url": "images/items/4056.gif",
         "slot": "披風類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1116,
     "name": {
       "zh_tw": "轉轉蛋",
-      "en": "EGGYRA"
+      "en": "EGGYRA",
+      "ko_kr": "에기라"
     },
     "image_url": "/images/monsters/1116.gif",
     "basic_info": {
@@ -12403,8 +12805,8 @@
     "stats": {
       "hp": 3275,
       "attack": {
-        "min": 187,
-        "max": 231
+        "min": 116,
+        "max": 116
       },
       "magic_attack": {
         "min": 96,
@@ -12421,6 +12823,10 @@
         "int": 15,
         "dex": 57,
         "luk": 20
+      },
+      "exp": {
+        "base": 1065.0,
+        "job": 1099.0
       }
     },
     "spawns": [
@@ -12509,13 +12915,15 @@
         "icon_url": "/images/items/1127.gif",
         "slot": "單手劍"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1118,
     "name": {
       "zh_tw": "噬人花",
-      "en": "FLORA"
+      "en": "FLORA",
+      "ko_kr": "플로라"
     },
     "image_url": "images/monsters/1118.gif",
     "basic_info": {
@@ -12530,8 +12938,8 @@
     "stats": {
       "hp": 8673,
       "attack": {
-        "min": 238,
-        "max": 304
+        "min": 208,
+        "max": 208
       },
       "magic_attack": {
         "min": 85,
@@ -12548,6 +12956,10 @@
         "int": 5,
         "dex": 46,
         "luk": 80
+      },
+      "exp": {
+        "base": 2247.0,
+        "job": 1919.0
       }
     },
     "spawns": [
@@ -12644,13 +13056,15 @@
         "icon_url": "images/items/4080.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1119,
     "name": {
       "zh_tw": "傘蜥",
-      "en": "FRILLDORA"
+      "en": "FRILLDORA",
+      "ko_kr": "프릴도라"
     },
     "image_url": "images/monsters/1119.gif",
     "basic_info": {
@@ -12665,8 +13079,8 @@
     "stats": {
       "hp": 6474,
       "attack": {
-        "min": 249,
-        "max": 323
+        "min": 163,
+        "max": 163
       },
       "magic_attack": {
         "min": 101,
@@ -12683,6 +13097,10 @@
         "int": 15,
         "dex": 51,
         "luk": 30
+      },
+      "exp": {
+        "base": 1991.0,
+        "job": 1774.0
       }
     },
     "spawns": [
@@ -12769,7 +13187,8 @@
         "icon_url": "images/items/4088.gif",
         "slot": "披風類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1121,
@@ -12889,13 +13308,15 @@
         "icon_url": "images/items/4087.gif",
         "slot": "頭飾類卡片"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 1122,
     "name": {
       "zh_tw": "刺刀哥布靈",
-      "en": "GOBLIN_1"
+      "en": "GOBLIN_1",
+      "ko_kr": "고블린(단검)"
     },
     "image_url": "images/monsters/1122.gif",
     "basic_info": {
@@ -12910,8 +13331,8 @@
     "stats": {
       "hp": 3785,
       "attack": {
-        "min": 154,
-        "max": 190
+        "min": 111,
+        "max": 111
       },
       "magic_attack": {
         "min": 91,
@@ -12928,6 +13349,10 @@
         "int": 20,
         "dex": 36,
         "luk": 10
+      },
+      "exp": {
+        "base": 1296.0,
+        "job": 1121.0
       }
     },
     "spawns": [
@@ -13029,13 +13454,15 @@
         "icon_url": "images/items/4060.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1123,
     "name": {
       "zh_tw": "鏈鎚哥布靈",
-      "en": "GOBLIN_2"
+      "en": "GOBLIN_2",
+      "ko_kr": "고블린(플레일)"
     },
     "image_url": "images/monsters/1123.gif",
     "basic_info": {
@@ -13050,8 +13477,8 @@
     "stats": {
       "hp": 2942,
       "attack": {
-        "min": 152,
-        "max": 190
+        "min": 92,
+        "max": 92
       },
       "magic_attack": {
         "min": 78,
@@ -13068,6 +13495,10 @@
         "int": 15,
         "dex": 58,
         "luk": 10
+      },
+      "exp": {
+        "base": 1073.0,
+        "job": 914.0
       }
     },
     "spawns": [
@@ -13169,13 +13600,15 @@
         "icon_url": "images/items/5010.gif",
         "slot": "頭飾 (上)"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1124,
     "name": {
       "zh_tw": "大斧哥布靈",
-      "en": "GOBLIN_3"
+      "en": "GOBLIN_3",
+      "ko_kr": "고블린(도끼)"
     },
     "image_url": "/images/monsters/1124.gif",
     "basic_info": {
@@ -13190,8 +13623,8 @@
     "stats": {
       "hp": 3266,
       "attack": {
-        "min": 144,
-        "max": 180
+        "min": 92,
+        "max": 92
       },
       "magic_attack": {
         "min": 82,
@@ -13208,6 +13641,10 @@
         "int": 15,
         "dex": 17,
         "luk": 10
+      },
+      "exp": {
+        "base": 1073.0,
+        "job": 914.0
       }
     },
     "spawns": [
@@ -13309,13 +13746,15 @@
         "icon_url": "images/items/5088.gif",
         "slot": "頭飾 (中下)"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1125,
     "name": {
       "zh_tw": "榔頭哥布靈",
-      "en": "GOBLIN_4"
+      "en": "GOBLIN_4",
+      "ko_kr": "고블린(해머)"
     },
     "image_url": "/images/monsters/1125.gif",
     "basic_info": {
@@ -13328,10 +13767,10 @@
       "size": "中"
     },
     "stats": {
-      "hp": 4873,
+      "hp": 4443,
       "attack": {
-        "min": 137,
-        "max": 167
+        "min": 127,
+        "max": 127
       },
       "magic_attack": {
         "min": 79,
@@ -13348,6 +13787,10 @@
         "int": 15,
         "dex": 34,
         "luk": 10
+      },
+      "exp": {
+        "base": 1416.0,
+        "job": 1172.0
       }
     },
     "spawns": [
@@ -13449,13 +13892,15 @@
         "icon_url": "images/items/5087.gif",
         "slot": "頭飾 (中下)"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1126,
     "name": {
       "zh_tw": "刺錘哥布靈",
-      "en": "GOBLIN_5"
+      "en": "GOBLIN_5",
+      "ko_kr": "고블린(철퇴)"
     },
     "image_url": "/images/monsters/1126.gif",
     "basic_info": {
@@ -13470,8 +13915,8 @@
     "stats": {
       "hp": 7545,
       "attack": {
-        "min": 240,
-        "max": 308
+        "min": 126,
+        "max": 126
       },
       "magic_attack": {
         "min": 92,
@@ -13488,6 +13933,10 @@
         "int": 15,
         "dex": 42,
         "luk": 10
+      },
+      "exp": {
+        "base": 1917.0,
+        "job": 1704.0
       }
     },
     "spawns": [
@@ -13569,13 +14018,15 @@
         "icon_url": "images/items/5089.gif",
         "slot": "頭飾 (中下)"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1127,
     "name": {
       "zh_tw": "蚯蚓",
-      "en": "HODE"
+      "en": "HODE",
+      "ko_kr": "호드"
     },
     "image_url": "/images/monsters/1127.gif",
     "basic_info": {
@@ -13590,8 +14041,8 @@
     "stats": {
       "hp": 12356,
       "attack": {
-        "min": 267,
-        "max": 339
+        "min": 252,
+        "max": 252
       },
       "magic_attack": {
         "min": 99,
@@ -13608,6 +14059,10 @@
         "int": 5,
         "dex": 32,
         "luk": 40
+      },
+      "exp": {
+        "base": 3248.0,
+        "job": 2800.0
       }
     },
     "spawns": [
@@ -13694,13 +14149,15 @@
         "icon_url": "images/items/7021.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1128,
     "name": {
       "zh_tw": "鍬形蟲",
-      "en": "HORN"
+      "en": "HORN",
+      "ko_kr": "호른"
     },
     "image_url": "/images/monsters/1128.gif",
     "basic_info": {
@@ -13715,8 +14172,8 @@
     "stats": {
       "hp": 1085,
       "attack": {
-        "min": 93,
-        "max": 119
+        "min": 44,
+        "max": 44
       },
       "magic_attack": {
         "min": 64,
@@ -13733,6 +14190,10 @@
         "int": 25,
         "dex": 21,
         "luk": 35
+      },
+      "exp": {
+        "base": 498.0,
+        "job": 381.0
       }
     },
     "spawns": [
@@ -13819,13 +14280,15 @@
         "icon_url": "images/items/4045.gif",
         "slot": "盾牌類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1129,
     "name": {
       "zh_tw": "鬼火",
-      "en": "HORONG"
+      "en": "HORONG",
+      "ko_kr": "호롱"
     },
     "image_url": "/images/monsters/1129.gif",
     "basic_info": {
@@ -13840,8 +14303,8 @@
     "stats": {
       "hp": 5613,
       "attack": {
-        "min": 322,
-        "max": 432
+        "min": 169,
+        "max": 169
       },
       "magic_attack": {
         "min": 160,
@@ -13858,6 +14321,10 @@
         "int": 45,
         "dex": 62,
         "luk": 25
+      },
+      "exp": {
+        "base": 2062.0,
+        "job": 1877.0
       }
     },
     "spawns": [
@@ -13939,13 +14406,15 @@
         "icon_url": "images/items/4103.gif",
         "slot": "裝飾品類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1138,
     "name": {
       "zh_tw": "魔鍋蛋",
-      "en": "MAGNOLIA"
+      "en": "MAGNOLIA",
+      "ko_kr": "백련옥"
     },
     "image_url": "images/monsters/1138.gif",
     "basic_info": {
@@ -13960,8 +14429,8 @@
     "stats": {
       "hp": 5840,
       "attack": {
-        "min": 178,
-        "max": 218
+        "min": 98,
+        "max": 98
       },
       "magic_attack": {
         "min": 218,
@@ -13978,6 +14447,10 @@
         "int": 50,
         "dex": 31,
         "luk": 85
+      },
+      "exp": {
+        "base": 1685.0,
+        "job": 1485.0
       }
     },
     "spawns": [
@@ -14056,13 +14529,15 @@
         "icon_url": "images/items/1120.gif",
         "slot": "單手劍"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1139,
     "name": {
       "zh_tw": "螳螂",
-      "en": "MANTIS"
+      "en": "MANTIS",
+      "ko_kr": "맨티스"
     },
     "image_url": "images/monsters/1139.gif",
     "basic_info": {
@@ -14077,8 +14552,8 @@
     "stats": {
       "hp": 12901,
       "attack": {
-        "min": 269,
-        "max": 345
+        "min": 258,
+        "max": 258
       },
       "magic_attack": {
         "min": 91,
@@ -14095,6 +14570,10 @@
         "int": 5,
         "dex": 46,
         "luk": 15
+      },
+      "exp": {
+        "base": 3505.0,
+        "job": 3035.0
       }
     },
     "spawns": [
@@ -14186,7 +14665,8 @@
         "icon_url": "images/items/4079.gif",
         "slot": "裝飾品類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1141,
@@ -14319,7 +14799,8 @@
         "icon_url": "images/items/4055.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 1142,
@@ -14445,7 +14926,8 @@
         "icon_url": "images/items/10003.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 1144,
@@ -14572,7 +15054,8 @@
         "icon_url": "/images/items/1514.gif",
         "slot": "鈍器"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 1145,
@@ -14692,13 +15175,15 @@
         "icon_url": "/images/items/10010.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 1148,
     "name": {
       "zh_tw": "米杜沙",
-      "en": "MEDUSA"
+      "en": "MEDUSA",
+      "ko_kr": "메두사"
     },
     "image_url": "/images/monsters/1148.gif",
     "basic_info": {
@@ -14711,10 +15196,10 @@
       "size": "中"
     },
     "stats": {
-      "hp": "24000-24500",
+      "hp": 25887,
       "attack": {
-        "min": 697,
-        "max": 945
+        "min": 491,
+        "max": 491
       },
       "magic_attack": {
         "min": 260,
@@ -14731,6 +15216,10 @@
         "int": 79,
         "dex": 83,
         "luk": 15
+      },
+      "exp": {
+        "base": 7981.0,
+        "job": 7583.0
       }
     },
     "spawns": [
@@ -14812,7 +15301,8 @@
         "icon_url": "/images/items/4124.gif",
         "slot": "盾牌類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1155,
@@ -14910,13 +15400,15 @@
         "icon_url": "/images/items/6260.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1156,
     "name": {
       "zh_tw": "畢帝特飛龍",
-      "en": "PETIT_"
+      "en": "PETIT_",
+      "ko_kr": "쁘띠(공중)"
     },
     "image_url": "/images/monsters/1156.gif",
     "basic_info": {
@@ -14931,8 +15423,8 @@
     "stats": {
       "hp": 15121,
       "attack": {
-        "min": 388,
-        "max": 512
+        "min": 301,
+        "max": 301
       },
       "magic_attack": {
         "min": 159,
@@ -14949,6 +15441,10 @@
         "int": 55,
         "dex": 86,
         "luk": 85
+      },
+      "exp": {
+        "base": 4039.0,
+        "job": 3755.0
       }
     },
     "spawns": [
@@ -15008,7 +15504,9 @@
         "icon_url": "/images/items/4120.gif",
         "slot": "盾牌類卡片"
       }
-    ]
+    ],
+    "special_status": "공중",
+    "is_valid": "True"
   },
   {
     "id": 1158,
@@ -15128,13 +15626,15 @@
         "icon_url": "/images/items/6096.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 1160,
     "name": {
       "zh_tw": "工蟻",
-      "en": "PIERE"
+      "en": "PIERE",
+      "ko_kr": "피에르"
     },
     "image_url": "/images/monsters/1160.gif",
     "basic_info": {
@@ -15147,10 +15647,10 @@
       "size": "小"
     },
     "stats": {
-      "hp": "950-1000",
+      "hp": 977,
       "attack": {
-        "min": 88,
-        "max": 108
+        "min": 40,
+        "max": 40
       },
       "magic_attack": {
         "min": 54,
@@ -15167,6 +15667,10 @@
         "int": 8,
         "dex": 27,
         "luk": 15
+      },
+      "exp": {
+        "base": 498.0,
+        "job": 381.0
       }
     },
     "spawns": [
@@ -15292,7 +15796,8 @@
         "icon_url": "images/items/1214.gif",
         "slot": "短劍"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1161,
@@ -15432,13 +15937,15 @@
         "icon_url": "/images/items/4024.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 1165,
     "name": {
       "zh_tw": "泥人",
-      "en": "SAND_MAN"
+      "en": "SAND_MAN",
+      "ko_kr": "샌드맨"
     },
     "image_url": "/images/monsters/1165.gif",
     "basic_info": {
@@ -15453,8 +15960,8 @@
     "stats": {
       "hp": 11933,
       "attack": {
-        "min": 236,
-        "max": 302
+        "min": 244,
+        "max": 244
       },
       "magic_attack": {
         "min": 115,
@@ -15471,6 +15978,10 @@
         "int": 15,
         "dex": 34,
         "luk": 25
+      },
+      "exp": {
+        "base": 3039.0,
+        "job": 2608.0
       }
     },
     "spawns": [
@@ -15557,13 +16068,15 @@
         "icon_url": "/images/items/7043.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1166,
     "name": {
       "zh_tw": "野豬",
-      "en": "SAVAGE"
+      "en": "SAVAGE",
+      "ko_kr": "세비지"
     },
     "image_url": "/images/monsters/1166.gif",
     "basic_info": {
@@ -15578,8 +16091,8 @@
     "stats": {
       "hp": 9063,
       "attack": {
-        "min": 259,
-        "max": 333
+        "min": 217,
+        "max": 217
       },
       "magic_attack": {
         "min": 85,
@@ -15596,6 +16109,10 @@
         "int": 10,
         "dex": 52,
         "luk": 15
+      },
+      "exp": {
+        "base": 2247.0,
+        "job": 1919.0
       }
     },
     "spawns": [
@@ -15684,13 +16201,15 @@
         "icon_url": "images/items/1461.gif",
         "slot": "雙手矛/槍/戟"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1167,
     "name": {
       "zh_tw": "小野豬",
-      "en": "SAVAGE_BABE"
+      "en": "SAVAGE_BABE",
+      "ko_kr": "세비지 베베"
     },
     "image_url": "/images/monsters/1167.gif",
     "basic_info": {
@@ -15705,8 +16224,8 @@
     "stats": {
       "hp": 127,
       "attack": {
-        "min": 45,
-        "max": 53
+        "min": 5,
+        "max": 5
       },
       "magic_attack": {
         "min": 23,
@@ -15723,6 +16242,10 @@
         "int": 5,
         "dex": 21,
         "luk": 18
+      },
+      "exp": {
+        "base": 172.0,
+        "job": 105.0
       }
     },
     "spawns": [
@@ -15814,13 +16337,15 @@
         "icon_url": "/images/items/4017.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1170,
     "name": {
       "zh_tw": "鬼女",
-      "en": "SOHEE"
+      "en": "SOHEE",
+      "ko_kr": "소희"
     },
     "image_url": "/images/monsters/1170.gif",
     "basic_info": {
@@ -15835,8 +16360,8 @@
     "stats": {
       "hp": 5662,
       "attack": {
-        "min": 266,
-        "max": 338
+        "min": 140,
+        "max": 140
       },
       "magic_attack": {
         "min": 105,
@@ -15853,6 +16378,10 @@
         "int": 20,
         "dex": 41,
         "luk": 25
+      },
+      "exp": {
+        "base": 1920.0,
+        "job": 1740.0
       }
     },
     "spawns": [
@@ -15934,13 +16463,15 @@
         "icon_url": "/images/items/15012.gif",
         "slot": "盔甲"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1174,
     "name": {
       "zh_tw": "瓢蟲",
-      "en": "STAINER"
+      "en": "STAINER",
+      "ko_kr": "스타이너"
     },
     "image_url": "images/monsters/1174.gif",
     "basic_info": {
@@ -15955,8 +16486,8 @@
     "stats": {
       "hp": 268,
       "attack": {
-        "min": 83,
-        "max": 109
+        "min": 13,
+        "max": 13
       },
       "magic_attack": {
         "min": 28,
@@ -15973,6 +16504,10 @@
         "int": 1,
         "dex": 39,
         "luk": 15
+      },
+      "exp": {
+        "base": 237.0,
+        "job": 177.0
       }
     },
     "spawns": [
@@ -16091,7 +16626,8 @@
         "icon_url": "images/items/1211.gif",
         "slot": "短劍"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1175,
@@ -16256,7 +16792,8 @@
         "icon_url": "/images/items/1111.gif",
         "slot": "單手劍"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 1176,
@@ -16403,13 +16940,15 @@
         "icon_url": "images/items/1216.gif",
         "slot": "短劍"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 1179,
     "name": {
       "zh_tw": "白幽靈",
-      "en": "WHISPER"
+      "en": "WHISPER",
+      "ko_kr": "위스퍼"
     },
     "image_url": "images/monsters/1179.gif",
     "basic_info": {
@@ -16424,8 +16963,8 @@
     "stats": {
       "hp": 1017,
       "attack": {
-        "min": 130,
-        "max": 156
+        "min": 66,
+        "max": 66
       },
       "magic_attack": {
         "min": 119,
@@ -16442,6 +16981,10 @@
         "int": 35,
         "dex": 52,
         "luk": 20
+      },
+      "exp": {
+        "base": 409.0,
+        "job": 312.0
       }
     },
     "spawns": [
@@ -16536,13 +17079,15 @@
         "icon_url": "images/items/1211.gif",
         "slot": "短劍"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1180,
     "name": {
       "zh_tw": "九尾狐",
-      "en": "NINE_TAIL"
+      "en": "NINE_TAIL",
+      "ko_kr": "구미호"
     },
     "image_url": "images/monsters/1180.gif",
     "basic_info": {
@@ -16557,8 +17102,8 @@
     "stats": {
       "hp": 8719,
       "attack": {
-        "min": 525,
-        "max": 723
+        "min": 225,
+        "max": 225
       },
       "magic_attack": {
         "min": 127,
@@ -16575,6 +17120,10 @@
         "int": 20,
         "dex": 106,
         "luk": 50
+      },
+      "exp": {
+        "base": 2707.0,
+        "job": 2491.0
       }
     },
     "spawns": [
@@ -16676,13 +17225,15 @@
         "icon_url": "/images/items/4159.gif",
         "slot": "披風類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1188,
     "name": {
       "zh_tw": "妖道",
-      "en": "BON_GUN"
+      "en": "BON_GUN",
+      "ko_kr": "본건"
     },
     "image_url": "/images/monsters/1188.gif",
     "basic_info": {
@@ -16697,8 +17248,8 @@
     "stats": {
       "hp": 4873,
       "attack": {
-        "min": 272,
-        "max": 352
+        "min": 146,
+        "max": 146
       },
       "magic_attack": {
         "min": 84,
@@ -16715,6 +17266,10 @@
         "int": 5,
         "dex": 37,
         "luk": 10
+      },
+      "exp": {
+        "base": 1654.0,
+        "job": 1274.0
       }
     },
     "spawns": [
@@ -16816,13 +17371,15 @@
         "icon_url": "/images/items/7014.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1242,
     "name": {
       "zh_tw": "冰波利",
-      "en": "MARIN"
+      "en": "MARIN",
+      "ko_kr": "마린"
     },
     "image_url": "/images/monsters/1242.gif",
     "basic_info": {
@@ -16837,8 +17394,8 @@
     "stats": {
       "hp": 1856,
       "attack": {
-        "min": 116,
-        "max": 144
+        "min": 46,
+        "max": 46
       },
       "magic_attack": {
         "min": 51,
@@ -16855,6 +17412,10 @@
         "int": 5,
         "dex": 30,
         "luk": 15
+      },
+      "exp": {
+        "base": 613.0,
+        "job": 506.0
       }
     },
     "spawns": [
@@ -16936,13 +17497,15 @@
         "icon_url": "/images/items/5035.gif",
         "slot": "頭飾 (上)"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1254,
     "name": {
       "zh_tw": "奈吉鳥",
-      "en": "RAGGLER"
+      "en": "RAGGLER",
+      "ko_kr": "레글러"
     },
     "image_url": "/images/monsters/1254.gif",
     "basic_info": {
@@ -16957,8 +17520,8 @@
     "stats": {
       "hp": 3368,
       "attack": {
-        "min": 135,
-        "max": 165
+        "min": 100,
+        "max": 100
       },
       "magic_attack": {
         "min": 90,
@@ -16975,6 +17538,10 @@
         "int": 15,
         "dex": 54,
         "luk": 27
+      },
+      "exp": {
+        "base": 1296.0,
+        "job": 1121.0
       }
     },
     "spawns": [
@@ -17048,13 +17615,15 @@
         "icon_url": "/images/items/1485.gif",
         "slot": "雙手矛/槍/戟"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1255,
     "name": {
       "zh_tw": "奈利蟲",
-      "en": "NERAID"
+      "en": "NERAID",
+      "ko_kr": "네레이드"
     },
     "image_url": "/images/monsters/1255.gif",
     "basic_info": {
@@ -17069,8 +17638,8 @@
     "stats": {
       "hp": 21918,
       "attack": {
-        "min": 399,
-        "max": 501
+        "min": 433,
+        "max": 433
       },
       "magic_attack": {
         "min": 177,
@@ -17087,6 +17656,10 @@
         "int": 30,
         "dex": 83,
         "luk": 50
+      },
+      "exp": {
+        "base": 6938.0,
+        "job": 6262.0
       }
     },
     "spawns": [
@@ -17168,13 +17741,15 @@
         "icon_url": "/images/items/7053.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1256,
     "name": {
       "zh_tw": "單眼蟲",
-      "en": "PEST"
+      "en": "PEST",
+      "ko_kr": "페스트"
     },
     "image_url": "/images/monsters/1256.gif",
     "basic_info": {
@@ -17189,8 +17764,8 @@
     "stats": {
       "hp": 15357,
       "attack": {
-        "min": 429,
-        "max": 563
+        "min": 283,
+        "max": 283
       },
       "magic_attack": {
         "min": 137,
@@ -17207,6 +17782,10 @@
         "int": 15,
         "dex": 106,
         "luk": 25
+      },
+      "exp": {
+        "base": 4832.0,
+        "job": 4543.0
       }
     },
     "spawns": [
@@ -17288,13 +17867,15 @@
         "icon_url": "images/items/1220.gif",
         "slot": "短劍"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1258,
     "name": {
       "zh_tw": "弓箭哥布靈",
-      "en": "GOBLIN_ARCHER"
+      "en": "GOBLIN_ARCHER",
+      "ko_kr": "고블린 아쳐"
     },
     "image_url": "/images/monsters/1258.gif",
     "basic_info": {
@@ -17309,8 +17890,8 @@
     "stats": {
       "hp": 5888,
       "attack": {
-        "min": 175,
-        "max": 215
+        "min": 136,
+        "max": 136
       },
       "magic_attack": {
         "min": 86,
@@ -17327,6 +17908,10 @@
         "int": 15,
         "dex": 53,
         "luk": 20
+      },
+      "exp": {
+        "base": 1845.0,
+        "job": 1635.0
       }
     },
     "spawns": [
@@ -17408,13 +17993,15 @@
         "icon_url": "/images/items/4157.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1261,
     "name": {
       "zh_tw": "狂暴野貓",
-      "en": "WILD_ROSE"
+      "en": "WILD_ROSE",
+      "ko_kr": "와일드 로즈"
     },
     "image_url": "/images/monsters/1261.gif",
     "basic_info": {
@@ -17429,8 +18016,8 @@
     "stats": {
       "hp": 12776,
       "attack": {
-        "min": 231,
-        "max": 291
+        "min": 247,
+        "max": 247
       },
       "magic_attack": {
         "min": 136,
@@ -17447,6 +18034,10 @@
         "int": 35,
         "dex": 69,
         "luk": 80
+      },
+      "exp": {
+        "base": 4004.0,
+        "job": 3673.0
       }
     },
     "spawns": [
@@ -17513,13 +18104,15 @@
         "icon_url": "/images/items/7053.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1262,
     "name": {
       "zh_tw": "半龍人",
-      "en": "MUTANT_DRAGON"
+      "en": "MUTANT_DRAGON",
+      "ko_kr": "뮤턴트 드래고노이드"
     },
     "image_url": "/images/monsters/1262.gif",
     "basic_info": {
@@ -17534,8 +18127,8 @@
     "stats": {
       "hp": 276854,
       "attack": {
-        "min": 1080,
-        "max": 1552
+        "min": 1528,
+        "max": 1528
       },
       "magic_attack": {
         "min": 506,
@@ -17552,6 +18145,10 @@
         "int": 68,
         "dex": 108,
         "luk": 35
+      },
+      "exp": {
+        "base": 470024.0,
+        "job": 175129.0
       }
     },
     "spawns": [
@@ -17618,13 +18215,15 @@
         "icon_url": "/images/items/7296.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1264,
     "name": {
       "zh_tw": "人魚士兵",
-      "en": "MERMAN"
+      "en": "MERMAN",
+      "ko_kr": "머맨"
     },
     "image_url": "/images/monsters/1264.gif",
     "basic_info": {
@@ -17639,8 +18238,8 @@
     "stats": {
       "hp": 2324,
       "attack": {
-        "min": 209,
-        "max": 263
+        "min": 121,
+        "max": 121
       },
       "magic_attack": {
         "min": 101,
@@ -17657,6 +18256,10 @@
         "int": 19,
         "dex": 55,
         "luk": 10
+      },
+      "exp": {
+        "base": 521.0,
+        "job": 468.0
       }
     },
     "spawns": [
@@ -17738,13 +18341,15 @@
         "icon_url": "/images/items/4199.gif",
         "slot": "鞋子類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1266,
     "name": {
       "zh_tw": "海星",
-      "en": "ASTER"
+      "en": "ASTER",
+      "ko_kr": "에스터"
     },
     "image_url": "images/monsters/1266.gif",
     "basic_info": {
@@ -17759,8 +18364,8 @@
     "stats": {
       "hp": 4298,
       "attack": {
-        "min": 162,
-        "max": 198
+        "min": 121,
+        "max": 121
       },
       "magic_attack": {
         "min": 66,
@@ -17777,6 +18382,10 @@
         "int": 1,
         "dex": 31,
         "luk": 5
+      },
+      "exp": {
+        "base": 1497.0,
+        "job": 1245.0
       }
     },
     "spawns": [
@@ -17868,13 +18477,15 @@
         "icon_url": "/images/items/7013.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1271,
     "name": {
       "zh_tw": "鱷魚人",
-      "en": "ALLIGATOR"
+      "en": "ALLIGATOR",
+      "ko_kr": "엘리게이터"
     },
     "image_url": "images/monsters/1271.gif",
     "basic_info": {
@@ -17889,8 +18500,8 @@
     "stats": {
       "hp": 7911,
       "attack": {
-        "min": 230,
-        "max": 294
+        "min": 130,
+        "max": 130
       },
       "magic_attack": {
         "min": 97,
@@ -17907,6 +18518,10 @@
         "int": 15,
         "dex": 40,
         "luk": 26
+      },
+      "exp": {
+        "base": 1991.0,
+        "job": 1774.0
       }
     },
     "spawns": [
@@ -17959,13 +18574,15 @@
         "icon_url": "/images/items/7003.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1273,
     "name": {
       "zh_tw": "獸人女戰士",
-      "en": "ORC_LADY"
+      "en": "ORC_LADY",
+      "ko_kr": "오크 레이디"
     },
     "image_url": "/images/monsters/1273.gif",
     "basic_info": {
@@ -17980,8 +18597,8 @@
     "stats": {
       "hp": 3709,
       "attack": {
-        "min": 142,
-        "max": 174
+        "min": 111,
+        "max": 111
       },
       "magic_attack": {
         "min": 78,
@@ -17998,6 +18615,10 @@
         "int": 10,
         "dex": 57,
         "luk": 5
+      },
+      "exp": {
+        "base": 1195.0,
+        "job": 975.0
       }
     },
     "spawns": [
@@ -18091,13 +18712,15 @@
         "icon_url": "/images/items/1125.gif",
         "slot": "單手劍"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1274,
     "name": {
       "zh_tw": "邪惡摩艾",
-      "en": "MEGALITH"
+      "en": "MEGALITH",
+      "ko_kr": "메갈리스"
     },
     "image_url": "/images/monsters/1274.gif",
     "basic_info": {
@@ -18112,8 +18735,8 @@
     "stats": {
       "hp": 6335,
       "attack": {
-        "min": 219,
-        "max": 269
+        "min": 199,
+        "max": 199
       },
       "magic_attack": {
         "min": 96,
@@ -18130,6 +18753,10 @@
         "int": 10,
         "dex": 99,
         "luk": 3
+      },
+      "exp": {
+        "base": 1989.0,
+        "job": 1807.0
       }
     },
     "spawns": [
@@ -18197,13 +18824,15 @@
         "icon_url": "images/items/7049.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1277,
     "name": {
       "zh_tw": "將軍魔碑",
-      "en": "GREATEST_GENERAL"
+      "en": "GREATEST_GENERAL",
+      "ko_kr": "천하대장군"
     },
     "image_url": "/images/monsters/1277.gif",
     "basic_info": {
@@ -18218,8 +18847,8 @@
     "stats": {
       "hp": 5563,
       "attack": {
-        "min": 293,
-        "max": 385
+        "min": 151,
+        "max": 151
       },
       "magic_attack": {
         "min": 98,
@@ -18236,6 +18865,10 @@
         "int": 25,
         "dex": 28,
         "luk": 20
+      },
+      "exp": {
+        "base": 1845.0,
+        "job": 1635.0
       }
     },
     "spawns": [
@@ -18342,13 +18975,15 @@
         "icon_url": "/images/items/7054.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1278,
     "name": {
       "zh_tw": "鐘乳巨石怪",
-      "en": "STALACTIC_GOLEM"
+      "en": "STALACTIC_GOLEM",
+      "ko_kr": "스터랙틱 고렘"
     },
     "image_url": "/images/monsters/1278.gif",
     "basic_info": {
@@ -18363,8 +18998,8 @@
     "stats": {
       "hp": 7183,
       "attack": {
-        "min": 421,
-        "max": 565
+        "min": 218,
+        "max": 218
       },
       "magic_attack": {
         "min": 83,
@@ -18381,6 +19016,10 @@
         "int": 1,
         "dex": 69,
         "luk": 5
+      },
+      "exp": {
+        "base": 2213.0,
+        "job": 2023.0
       }
     },
     "spawns": [
@@ -18462,13 +19101,15 @@
         "icon_url": "/images/items/7054.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1279,
     "name": {
       "zh_tw": "三葉蟲",
-      "en": "TRI_JOINT"
+      "en": "TRI_JOINT",
+      "ko_kr": "트라이 조인트"
     },
     "image_url": "/images/monsters/1279.gif",
     "basic_info": {
@@ -18483,8 +19124,8 @@
     "stats": {
       "hp": 6853,
       "attack": {
-        "min": 300,
-        "max": 418
+        "min": 187,
+        "max": 187
       },
       "magic_attack": {
         "min": 95,
@@ -18501,6 +19142,10 @@
         "int": 10,
         "dex": 61,
         "luk": 20
+      },
+      "exp": {
+        "base": 2164.0,
+        "job": 1877.0
       }
     },
     "spawns": [
@@ -18575,17 +19220,19 @@
         "icon_url": "/images/items/7053.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1280,
     "name": {
       "zh_tw": "噴射哥布靈",
-      "en": "STEAM_GOBLIN"
+      "en": "STEAM_GOBLIN",
+      "ko_kr": "고블린 스팀라이더"
     },
     "image_url": "/images/monsters/1280.gif",
     "basic_info": {
-      "level": 66,
+      "level": 85,
       "race": "人形",
       "element": {
         "type": "風",
@@ -18596,8 +19243,8 @@
     "stats": {
       "hp": 12746,
       "attack": {
-        "min": 353,
-        "max": 471
+        "min": 243,
+        "max": 243
       },
       "magic_attack": {
         "min": 105,
@@ -18614,6 +19261,10 @@
         "int": 15,
         "dex": 90,
         "luk": 25
+      },
+      "exp": {
+        "base": 3453.0,
+        "job": 3143.0
       }
     },
     "spawns": [
@@ -18695,13 +19346,15 @@
         "icon_url": "/images/items/13104.gif",
         "slot": "手槍"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1299,
     "name": {
       "zh_tw": "哥布靈首領",
-      "en": "GOBLIN_LEADER"
+      "en": "GOBLIN_LEADER",
+      "ko_kr": "고블린 리더"
     },
     "image_url": "/images/monsters/1299.gif",
     "basic_info": {
@@ -18716,8 +19369,8 @@
     "stats": {
       "hp": 85900,
       "attack": {
-        "min": 253,
-        "max": 323
+        "min": 207,
+        "max": 207
       },
       "magic_attack": {
         "min": 107,
@@ -18734,6 +19387,10 @@
         "int": 18,
         "dex": 73,
         "luk": 23
+      },
+      "exp": {
+        "base": 138758.0,
+        "job": 99118.0
       }
     },
     "spawns": [
@@ -18815,13 +19472,15 @@
         "icon_url": "/images/items/7054.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1308,
     "name": {
       "zh_tw": "狂暴哥布靈",
-      "en": "PANZER_GOBLIN"
+      "en": "PANZER_GOBLIN",
+      "ko_kr": "팬저 고블린"
     },
     "image_url": "/images/monsters/1308.gif",
     "basic_info": {
@@ -18836,8 +19495,8 @@
     "stats": {
       "hp": 5472,
       "attack": {
-        "min": 206,
-        "max": 258
+        "min": 153,
+        "max": 153
       },
       "magic_attack": {
         "min": 127,
@@ -18854,6 +19513,10 @@
         "int": 35,
         "dex": 75,
         "luk": 31
+      },
+      "exp": {
+        "base": 870.0,
+        "job": 937.0
       }
     },
     "spawns": [
@@ -18935,13 +19598,15 @@
         "icon_url": "/images/items/13158.gif",
         "slot": "格林機關槍"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1313,
     "name": {
       "zh_tw": "流氓",
-      "en": "MOBSTER"
+      "en": "MOBSTER",
+      "ko_kr": "폭력배"
     },
     "image_url": "/images/monsters/1313.gif",
     "basic_info": {
@@ -18954,10 +19619,10 @@
       "size": "中"
     },
     "stats": {
-      "hp": 2253,
+      "hp": 5278,
       "attack": {
-        "min": 254,
-        "max": 318
+        "min": 141,
+        "max": 141
       },
       "magic_attack": {
         "min": 95,
@@ -18974,6 +19639,10 @@
         "int": 21,
         "dex": 45,
         "luk": 5
+      },
+      "exp": {
+        "base": 1447.0,
+        "job": 1293.0
       }
     },
     "spawns": [
@@ -19055,13 +19724,15 @@
         "icon_url": "/images/items/6265.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1317,
     "name": {
       "zh_tw": "海豹寶寶",
-      "en": "FUR_SEAL"
+      "en": "FUR_SEAL",
+      "ko_kr": "퍼씰"
     },
     "image_url": "/images/monsters/1317.gif",
     "basic_info": {
@@ -19076,8 +19747,8 @@
     "stats": {
       "hp": 4368,
       "attack": {
-        "min": 153,
-        "max": 189
+        "min": 86,
+        "max": 86
       },
       "magic_attack": {
         "min": 114,
@@ -19094,6 +19765,10 @@
         "int": 39,
         "dex": 35,
         "luk": 19
+      },
+      "exp": {
+        "base": 1243.0,
+        "job": 1071.0
       }
     },
     "spawns": [
@@ -19175,13 +19850,15 @@
         "icon_url": "/images/items/7053.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1323,
     "name": {
       "zh_tw": "海獺",
-      "en": "SEE_OTTER"
+      "en": "SEE_OTTER",
+      "ko_kr": "해달"
     },
     "image_url": "images/monsters/1323.gif",
     "basic_info": {
@@ -19196,8 +19873,8 @@
     "stats": {
       "hp": 5041,
       "attack": {
-        "min": 146,
-        "max": 180
+        "min": 90,
+        "max": 90
       },
       "magic_attack": {
         "min": 103,
@@ -19214,6 +19891,10 @@
         "int": 26,
         "dex": 41,
         "luk": 28
+      },
+      "exp": {
+        "base": 1296.0,
+        "job": 1121.0
       }
     },
     "spawns": [
@@ -19287,13 +19968,15 @@
         "icon_url": "/images/items/1160.gif",
         "slot": "雙手劍"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1380,
     "name": {
       "zh_tw": "爆鑽傘蜥",
-      "en": "DRILLER"
+      "en": "DRILLER",
+      "ko_kr": "드릴러"
     },
     "image_url": "images/monsters/1380.gif",
     "basic_info": {
@@ -19308,8 +19991,8 @@
     "stats": {
       "hp": 12901,
       "attack": {
-        "min": 279,
-        "max": 355
+        "min": 258,
+        "max": 258
       },
       "magic_attack": {
         "min": 101,
@@ -19326,6 +20009,10 @@
         "int": 15,
         "dex": 53,
         "luk": 5
+      },
+      "exp": {
+        "base": 3505.0,
+        "job": 3035.0
       }
     },
     "spawns": [
@@ -19381,13 +20068,15 @@
         "icon_url": "/images/items/1611.gif",
         "slot": "單手杖"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1391,
     "name": {
       "zh_tw": "啤酒企鵝",
-      "en": "GALAPAGO"
+      "en": "GALAPAGO",
+      "ko_kr": "갈라파고"
     },
     "image_url": "/images/monsters/1391.gif",
     "basic_info": {
@@ -19402,8 +20091,8 @@
     "stats": {
       "hp": 3181,
       "attack": {
-        "min": 129,
-        "max": 157
+        "min": 97,
+        "max": 97
       },
       "magic_attack": {
         "min": 87,
@@ -19420,6 +20109,10 @@
         "int": 18,
         "dex": 30,
         "luk": 16
+      },
+      "exp": {
+        "base": 1195.0,
+        "job": 975.0
       }
     },
     "spawns": [
@@ -19513,13 +20206,15 @@
         "icon_url": "/images/items/1113.gif",
         "slot": "單手劍"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1392,
     "name": {
       "zh_tw": "直升機哥布靈",
-      "en": "ROTAR_ZAIRO"
+      "en": "ROTAR_ZAIRO",
+      "ko_kr": "로터자이로"
     },
     "image_url": "/images/monsters/1392.gif",
     "basic_info": {
@@ -19534,8 +20229,8 @@
     "stats": {
       "hp": 4411,
       "attack": {
-        "min": 137,
-        "max": 167
+        "min": 122,
+        "max": 122
       },
       "magic_attack": {
         "min": 102,
@@ -19552,6 +20247,10 @@
         "int": 26,
         "dex": 61,
         "luk": 5
+      },
+      "exp": {
+        "base": 1296.0,
+        "job": 1121.0
       }
     },
     "spawns": [
@@ -19633,13 +20332,15 @@
         "icon_url": "/images/items/7126.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1493,
     "name": {
       "zh_tw": "森林妖姬",
-      "en": "DRYAD"
+      "en": "DRYAD",
+      "ko_kr": "드라이어드"
     },
     "image_url": "/images/monsters/1493.gif",
     "basic_info": {
@@ -19654,8 +20355,8 @@
     "stats": {
       "hp": 16113,
       "attack": {
-        "min": 345,
-        "max": 457
+        "min": 309,
+        "max": 309
       },
       "magic_attack": {
         "min": 127,
@@ -19672,6 +20373,10 @@
         "int": 35,
         "dex": 74,
         "luk": 10
+      },
+      "exp": {
+        "base": 3906.0,
+        "job": 3403.0
       }
     },
     "spawns": [
@@ -19738,13 +20443,15 @@
         "icon_url": "/images/items/7198.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1494,
     "name": {
       "zh_tw": "巨象甲蟲",
-      "en": "KIND_OF_BEETLE"
+      "en": "KIND_OF_BEETLE",
+      "ko_kr": "투구벌레"
     },
     "image_url": "images/monsters/1494.gif",
     "basic_info": {
@@ -19759,8 +20466,8 @@
     "stats": {
       "hp": 5888,
       "attack": {
-        "min": 200,
-        "max": 248
+        "min": 151,
+        "max": 151
       },
       "magic_attack": {
         "min": 92,
@@ -19777,6 +20484,10 @@
         "int": 1,
         "dex": 50,
         "luk": 1
+      },
+      "exp": {
+        "base": 1936.0,
+        "job": 1635.0
       }
     },
     "spawns": [
@@ -19851,13 +20562,15 @@
         "icon_url": "/images/items/1485.gif",
         "slot": "雙手矛/槍/戟"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1495,
     "name": {
       "zh_tw": "石砲火樹",
-      "en": "STONE_SHOOTER"
+      "en": "STONE_SHOOTER",
+      "ko_kr": "스톤슈터"
     },
     "image_url": "images/monsters/1495.gif",
     "basic_info": {
@@ -19872,8 +20585,8 @@
     "stats": {
       "hp": 9926,
       "attack": {
-        "min": 287,
-        "max": 373
+        "min": 227,
+        "max": 227
       },
       "magic_attack": {
         "min": 116,
@@ -19890,6 +20603,10 @@
         "int": 15,
         "dex": 85,
         "luk": 15
+      },
+      "exp": {
+        "base": 3237.0,
+        "job": 2934.0
       }
     },
     "spawns": [
@@ -19964,13 +20681,15 @@
         "icon_url": "/images/items/7203.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1497,
     "name": {
       "zh_tw": "機木人",
-      "en": "WOODEN_GOLEM"
+      "en": "WOODEN_GOLEM",
+      "ko_kr": "우든골렘"
     },
     "image_url": "/images/monsters/1497.gif",
     "basic_info": {
@@ -19985,8 +20704,8 @@
     "stats": {
       "hp": 21949,
       "attack": {
-        "min": 397,
-        "max": 527
+        "min": 379,
+        "max": 379
       },
       "magic_attack": {
         "min": 106,
@@ -20003,6 +20722,10 @@
         "int": 5,
         "dex": 59,
         "luk": 5
+      },
+      "exp": {
+        "base": 4769.0,
+        "job": 4183.0
       }
     },
     "spawns": [
@@ -20074,13 +20797,15 @@
         "icon_url": "/images/items/7936.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1498,
     "name": {
       "zh_tw": "伍坦彈弓手",
-      "en": "WOOTAN_SHOOTER"
+      "en": "WOOTAN_SHOOTER",
+      "ko_kr": "우탄슈터"
     },
     "image_url": "images/monsters/1498.gif",
     "basic_info": {
@@ -20095,8 +20820,8 @@
     "stats": {
       "hp": 14804,
       "attack": {
-        "min": 216,
-        "max": 276
+        "min": 287,
+        "max": 287
       },
       "magic_attack": {
         "min": 111,
@@ -20113,6 +20838,10 @@
         "int": 20,
         "dex": 76,
         "luk": 10
+      },
+      "exp": {
+        "base": 3783.0,
+        "job": 3291.0
       }
     },
     "spawns": [
@@ -20194,13 +20923,15 @@
         "icon_url": "images/items/7939.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1499,
     "name": {
       "zh_tw": "伍坦戰士",
-      "en": "WOOTAN_FIGHTER"
+      "en": "WOOTAN_FIGHTER",
+      "ko_kr": "우탄파이터"
     },
     "image_url": "images/monsters/1499.gif",
     "basic_info": {
@@ -20215,8 +20946,8 @@
     "stats": {
       "hp": 11988,
       "attack": {
-        "min": 334,
-        "max": 436
+        "min": 250,
+        "max": 250
       },
       "magic_attack": {
         "min": 97,
@@ -20233,6 +20964,10 @@
         "int": 5,
         "dex": 62,
         "luk": 15
+      },
+      "exp": {
+        "base": 3607.0,
+        "job": 3291.0
       }
     },
     "spawns": [
@@ -20314,13 +21049,15 @@
         "icon_url": "images/items/7939.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1500,
     "name": {
       "zh_tw": "苗娃佩瑞絲",
-      "en": "PARASITE"
+      "en": "PARASITE",
+      "ko_kr": "패러사이트"
     },
     "image_url": "/images/monsters/1500.gif",
     "basic_info": {
@@ -20335,8 +21072,8 @@
     "stats": {
       "hp": 20097,
       "attack": {
-        "min": 272,
-        "max": 344
+        "min": 328,
+        "max": 328
       },
       "magic_attack": {
         "min": 157,
@@ -20353,6 +21090,10 @@
         "int": 50,
         "dex": 106,
         "luk": 40
+      },
+      "exp": {
+        "base": 5153.0,
+        "job": 4771.0
       }
     },
     "spawns": [
@@ -20419,13 +21160,15 @@
         "icon_url": "/images/items/7198.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1582,
     "name": {
       "zh_tw": "惡魔波利",
-      "en": "DEVILING"
+      "en": "DEVILING",
+      "ko_kr": "데빌링"
     },
     "image_url": "/images/monsters/1582.gif",
     "basic_info": {
@@ -20440,8 +21183,8 @@
     "stats": {
       "hp": 93317,
       "attack": {
-        "min": 364,
-        "max": 490
+        "min": 406,
+        "max": 406
       },
       "magic_attack": {
         "min": 269,
@@ -20458,6 +21201,10 @@
         "int": 75,
         "dex": 85,
         "luk": 200
+      },
+      "exp": {
+        "base": 165335.0,
+        "job": 65692.0
       }
     },
     "spawns": [
@@ -20529,13 +21276,15 @@
         "icon_url": "/images/items/7023.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1686,
     "name": {
       "zh_tw": "獸人嬰兒",
-      "en": "ORC_BABY"
+      "en": "ORC_BABY",
+      "ko_kr": "오크 베이비"
     },
     "image_url": "/images/monsters/1686.gif",
     "basic_info": {
@@ -20550,8 +21299,8 @@
     "stats": {
       "hp": 2766,
       "attack": {
-        "min": 119,
-        "max": 145
+        "min": 87,
+        "max": 87
       },
       "magic_attack": {
         "min": 70,
@@ -20568,6 +21317,10 @@
         "int": 20,
         "dex": 31,
         "luk": 35
+      },
+      "exp": {
+        "base": 1077.0,
+        "job": 872.0
       }
     },
     "spawns": [
@@ -20654,13 +21407,15 @@
         "icon_url": "/images/items/10004.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 1687,
     "name": {
       "zh_tw": "綠變色龍",
-      "en": "GREEN_IGUANA"
+      "en": "GREEN_IGUANA",
+      "ko_kr": "그로브"
     },
     "image_url": "/images/monsters/1687.gif",
     "basic_info": {
@@ -20675,8 +21430,8 @@
     "stats": {
       "hp": 6866,
       "attack": {
-        "min": 229,
-        "max": 289
+        "min": 172,
+        "max": 172
       },
       "magic_attack": {
         "min": 84,
@@ -20693,6 +21448,10 @@
         "int": 5,
         "dex": 50,
         "luk": 17
+      },
+      "exp": {
+        "base": 1936.0,
+        "job": 1635.0
       }
     },
     "spawns": [
@@ -20766,7 +21525,8 @@
         "icon_url": "/images/items/1358.gif",
         "slot": "雙手斧"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 21064,
@@ -20814,7 +21574,8 @@
         "spawn_info": ""
       }
     ],
-    "drops": []
+    "drops": [],
+    "is_valid": "False"
   },
   {
     "id": 21065,
@@ -20862,7 +21623,8 @@
         "spawn_info": ""
       }
     ],
-    "drops": []
+    "drops": [],
+    "is_valid": "False"
   },
   {
     "id": 21066,
@@ -20910,7 +21672,8 @@
         "spawn_info": ""
       }
     ],
-    "drops": []
+    "drops": [],
+    "is_valid": "False"
   },
   {
     "id": 21067,
@@ -20958,7 +21721,8 @@
         "spawn_info": ""
       }
     ],
-    "drops": []
+    "drops": [],
+    "is_valid": "False"
   },
   {
     "id": 21068,
@@ -21006,7 +21770,8 @@
         "spawn_info": ""
       }
     ],
-    "drops": []
+    "drops": [],
+    "is_valid": "False"
   },
   {
     "id": 21069,
@@ -21054,7 +21819,8 @@
         "spawn_info": ""
       }
     ],
-    "drops": []
+    "drops": [],
+    "is_valid": "False"
   },
   {
     "id": 21070,
@@ -21102,7 +21868,8 @@
         "spawn_info": ""
       }
     ],
-    "drops": []
+    "drops": [],
+    "is_valid": "False"
   },
   {
     "id": 21071,
@@ -21150,7 +21917,8 @@
         "spawn_info": ""
       }
     ],
-    "drops": []
+    "drops": [],
+    "is_valid": "False"
   },
   {
     "id": 21072,
@@ -21198,7 +21966,8 @@
         "spawn_info": ""
       }
     ],
-    "drops": []
+    "drops": [],
+    "is_valid": "False"
   },
   {
     "id": 21073,
@@ -21246,7 +22015,8 @@
         "spawn_info": ""
       }
     ],
-    "drops": []
+    "drops": [],
+    "is_valid": "False"
   },
   {
     "id": 21074,
@@ -21294,7 +22064,8 @@
         "spawn_info": ""
       }
     ],
-    "drops": []
+    "drops": [],
+    "is_valid": "False"
   },
   {
     "id": 21075,
@@ -21342,7 +22113,8 @@
         "spawn_info": ""
       }
     ],
-    "drops": []
+    "drops": [],
+    "is_valid": "False"
   },
   {
     "id": 21076,
@@ -21390,7 +22162,8 @@
         "spawn_info": ""
       }
     ],
-    "drops": []
+    "drops": [],
+    "is_valid": "False"
   },
   {
     "id": 21077,
@@ -21438,7 +22211,8 @@
         "spawn_info": ""
       }
     ],
-    "drops": []
+    "drops": [],
+    "is_valid": "False"
   },
   {
     "id": 21078,
@@ -21486,7 +22260,8 @@
         "spawn_info": ""
       }
     ],
-    "drops": []
+    "drops": [],
+    "is_valid": "False"
   },
   {
     "id": 21079,
@@ -21534,7 +22309,8 @@
         "spawn_info": ""
       }
     ],
-    "drops": []
+    "drops": [],
+    "is_valid": "False"
   },
   {
     "id": 21080,
@@ -21582,7 +22358,8 @@
         "spawn_info": ""
       }
     ],
-    "drops": []
+    "drops": [],
+    "is_valid": "False"
   },
   {
     "id": 21081,
@@ -21630,7 +22407,8 @@
         "spawn_info": ""
       }
     ],
-    "drops": []
+    "drops": [],
+    "is_valid": "False"
   },
   {
     "id": 21082,
@@ -21678,7 +22456,8 @@
         "spawn_info": ""
       }
     ],
-    "drops": []
+    "drops": [],
+    "is_valid": "False"
   },
   {
     "id": 21083,
@@ -21726,7 +22505,8 @@
         "spawn_info": ""
       }
     ],
-    "drops": []
+    "drops": [],
+    "is_valid": "False"
   },
   {
     "id": 21084,
@@ -21774,7 +22554,8 @@
         "spawn_info": ""
       }
     ],
-    "drops": []
+    "drops": [],
+    "is_valid": "False"
   },
   {
     "id": 21085,
@@ -21822,7 +22603,8 @@
         "spawn_info": ""
       }
     ],
-    "drops": []
+    "drops": [],
+    "is_valid": "False"
   },
   {
     "id": 21086,
@@ -21870,7 +22652,8 @@
         "spawn_info": ""
       }
     ],
-    "drops": []
+    "drops": [],
+    "is_valid": "False"
   },
   {
     "id": 2398,
@@ -21990,7 +22773,8 @@
         "icon_url": "/images/items/4545.gif",
         "slot": "頭飾類卡片"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 2404,
@@ -22086,7 +22870,8 @@
         "icon_url": "images/items/1052.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 2405,
@@ -22182,7 +22967,8 @@
         "icon_url": "images/items/2609.gif",
         "slot": "裝飾品"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 2406,
@@ -22287,7 +23073,8 @@
         "icon_url": "images/items/2315.gif",
         "slot": "盔甲"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 2450,
@@ -22371,13 +23158,15 @@
         "icon_url": "/images/items/7056.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 2606,
     "name": {
       "zh_tw": "憤怒腐屍",
-      "en": "C4_ZOMBIE"
+      "en": "C4_ZOMBIE",
+      "ko_kr": "분노의 좀비"
     },
     "image_url": "images/monsters/2606.gif",
     "basic_info": {
@@ -22392,8 +23181,8 @@
     "stats": {
       "hp": 1020,
       "attack": {
-        "min": 67,
-        "max": 85
+        "min": 9,
+        "max": 9
       },
       "magic_attack": {
         "min": 26,
@@ -22410,6 +23199,10 @@
         "int": 1,
         "dex": 15,
         "luk": 1
+      },
+      "exp": {
+        "base": 2835.0,
+        "job": 1680.0
       }
     },
     "spawns": [
@@ -22489,13 +23282,15 @@
         "icon_url": "images/items/4038.gif",
         "slot": "鞋子類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2608,
     "name": {
       "zh_tw": "迅捷溜溜猴",
-      "en": "C1_YOYO"
+      "en": "C1_YOYO",
+      "ko_kr": "빠른 요요"
     },
     "image_url": "/images/monsters/2608.gif",
     "basic_info": {
@@ -22510,8 +23305,8 @@
     "stats": {
       "hp": 7820,
       "attack": {
-        "min": 118,
-        "max": 148
+        "min": 72,
+        "max": 72
       },
       "magic_attack": {
         "min": 65,
@@ -22528,6 +23323,10 @@
         "int": 20,
         "dex": 19,
         "luk": 10
+      },
+      "exp": {
+        "base": 10140.0,
+        "job": 8010.0
       }
     },
     "spawns": [
@@ -22594,13 +23393,15 @@
         "icon_url": "images/items/7182.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2610,
     "name": {
       "zh_tw": "菁英森靈",
-      "en": "C3_WORM_TAIL"
+      "en": "C3_WORM_TAIL",
+      "ko_kr": "두목 웜테일"
     },
     "image_url": "images/monsters/2610.gif",
     "basic_info": {
@@ -22615,8 +23416,8 @@
     "stats": {
       "hp": 930,
       "attack": {
-        "min": 47,
-        "max": 59
+        "min": 9,
+        "max": 9
       },
       "magic_attack": {
         "min": 25,
@@ -22633,6 +23434,10 @@
         "int": 5,
         "dex": 12,
         "luk": 35
+      },
+      "exp": {
+        "base": 2700.0,
+        "job": 1800.0
       }
     },
     "spawns": [
@@ -22699,13 +23504,15 @@
         "icon_url": "images/items/10015.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2611,
     "name": {
       "zh_tw": "憤怒伍坦戰士",
-      "en": "C4_WOOTAN_FIGHTER"
+      "en": "C4_WOOTAN_FIGHTER",
+      "ko_kr": "분노의 우탄파이터"
     },
     "image_url": "images/monsters/2611.gif",
     "basic_info": {
@@ -22720,8 +23527,8 @@
     "stats": {
       "hp": 59940,
       "attack": {
-        "min": 374,
-        "max": 498
+        "min": 300,
+        "max": 300
       },
       "magic_attack": {
         "min": 97,
@@ -22738,6 +23545,10 @@
         "int": 5,
         "dex": 62,
         "luk": 15
+      },
+      "exp": {
+        "base": 54105.0,
+        "job": 49365.0
       }
     },
     "spawns": [
@@ -22804,13 +23615,15 @@
         "icon_url": "images/items/7939.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2613,
     "name": {
       "zh_tw": "迅捷狼",
-      "en": "C1_WOLF"
+      "en": "C1_WOLF",
+      "ko_kr": "빠른 울프"
     },
     "image_url": "/images/monsters/2613.gif",
     "basic_info": {
@@ -22825,8 +23638,8 @@
     "stats": {
       "hp": 17670,
       "attack": {
-        "min": 148,
-        "max": 188
+        "min": 127,
+        "max": 127
       },
       "magic_attack": {
         "min": 67,
@@ -22843,6 +23656,10 @@
         "int": 15,
         "dex": 33,
         "luk": 5
+      },
+      "exp": {
+        "base": 17925.0,
+        "job": 14625.0
       }
     },
     "spawns": [
@@ -22909,13 +23726,15 @@
         "icon_url": "images/items/4029.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2615,
     "name": {
       "zh_tw": "菁英樹精",
-      "en": "C3_WILOW"
+      "en": "C3_WILOW",
+      "ko_kr": "두목 윌로우"
     },
     "image_url": "/images/monsters/2615.gif",
     "basic_info": {
@@ -22930,8 +23749,8 @@
     "stats": {
       "hp": 390,
       "attack": {
-        "min": 33,
-        "max": 39
+        "min": 1,
+        "max": 1
       },
       "magic_attack": {
         "min": 16,
@@ -22948,6 +23767,10 @@
         "int": 5,
         "dex": 12,
         "luk": 5
+      },
+      "exp": {
+        "base": 2400.0,
+        "job": 1125.0
       }
     },
     "spawns": [
@@ -23029,13 +23852,15 @@
         "icon_url": "images/items/4010.gif",
         "slot": "頭飾類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2616,
     "name": {
       "zh_tw": "憤怒狂暴野貓",
-      "en": "C4_WILD_ROSE"
+      "en": "C4_WILD_ROSE",
+      "ko_kr": "분노의 와일드 로즈"
     },
     "image_url": "/images/monsters/2616.gif",
     "basic_info": {
@@ -23050,8 +23875,8 @@
     "stats": {
       "hp": 63880,
       "attack": {
-        "min": 254,
-        "max": 326
+        "min": 296,
+        "max": 296
       },
       "magic_attack": {
         "min": 136,
@@ -23068,6 +23893,10 @@
         "int": 35,
         "dex": 69,
         "luk": 80
+      },
+      "exp": {
+        "base": 60060.0,
+        "job": 55095.0
       }
     },
     "spawns": [
@@ -23134,7 +23963,8 @@
         "icon_url": "/images/items/7053.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2628,
@@ -23254,7 +24084,8 @@
         "icon_url": "images/items/4049.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 2632,
@@ -23374,7 +24205,8 @@
         "icon_url": "images/items/4016.gif",
         "slot": "盔甲類卡片"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 2633,
@@ -23494,7 +24326,8 @@
         "icon_url": "images/items/4016.gif",
         "slot": "盔甲類卡片"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 2634,
@@ -23614,13 +24447,15 @@
         "icon_url": "images/items/4016.gif",
         "slot": "盔甲類卡片"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 2635,
     "name": {
       "zh_tw": "狡猾突變蛙",
-      "en": "C5_THARA_FROG"
+      "en": "C5_THARA_FROG",
+      "ko_kr": "떠도는 타라 프로그"
     },
     "image_url": "/images/monsters/2635.gif",
     "basic_info": {
@@ -23635,8 +24470,8 @@
     "stats": {
       "hp": 9750,
       "attack": {
-        "min": 134,
-        "max": 170
+        "min": 58,
+        "max": 58
       },
       "magic_attack": {
         "min": 79,
@@ -23653,6 +24488,10 @@
         "int": 18,
         "dex": 30,
         "luk": 2
+      },
+      "exp": {
+        "base": 9000.0,
+        "job": 7530.0
       }
     },
     "spawns": [
@@ -23734,13 +24573,15 @@
         "icon_url": "images/items/4058.gif",
         "slot": "盾牌類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2642,
     "name": {
       "zh_tw": "雄壯綠蒼蠅",
-      "en": "C2_STEEL_CHONCHON"
+      "en": "C2_STEEL_CHONCHON",
+      "ko_kr": "튼튼한 스틸 촌촌"
     },
     "image_url": "/images/monsters/2642.gif",
     "basic_info": {
@@ -23755,8 +24596,8 @@
     "stats": {
       "hp": 33680,
       "attack": {
-        "min": 151,
-        "max": 189
+        "min": 120,
+        "max": 120
       },
       "magic_attack": {
         "min": 82,
@@ -23773,6 +24614,10 @@
         "int": 10,
         "dex": 56,
         "luk": 10
+      },
+      "exp": {
+        "base": 19440.0,
+        "job": 16815.0
       }
     },
     "spawns": [
@@ -23839,13 +24684,15 @@
         "icon_url": "images/items/4042.gif",
         "slot": "盔甲類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2644,
     "name": {
       "zh_tw": "憤怒鐘乳巨石怪",
-      "en": "C4_STALACTIC_GOLEM"
+      "en": "C4_STALACTIC_GOLEM",
+      "ko_kr": "분노의 스터랙틱 고렘"
     },
     "image_url": "/images/monsters/2644.gif",
     "basic_info": {
@@ -23860,8 +24707,8 @@
     "stats": {
       "hp": 35915,
       "attack": {
-        "min": 477,
-        "max": 649
+        "min": 261,
+        "max": 261
       },
       "magic_attack": {
         "min": 83,
@@ -23878,6 +24725,10 @@
         "int": 1,
         "dex": 69,
         "luk": 5
+      },
+      "exp": {
+        "base": 33195.0,
+        "job": 30345.0
       }
     },
     "spawns": [
@@ -23959,13 +24810,15 @@
         "icon_url": "/images/items/7054.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2645,
     "name": {
       "zh_tw": "狡猾瓢蟲",
-      "en": "C5_STAINER"
+      "en": "C5_STAINER",
+      "ko_kr": "떠도는 스타이너"
     },
     "image_url": "/images/monsters/2645.gif",
     "basic_info": {
@@ -23980,8 +24833,8 @@
     "stats": {
       "hp": 1340,
       "attack": {
-        "min": 93,
-        "max": 125
+        "min": 15,
+        "max": 15
       },
       "magic_attack": {
         "min": 28,
@@ -23998,6 +24851,10 @@
         "int": 1,
         "dex": 39,
         "luk": 15
+      },
+      "exp": {
+        "base": 3555.0,
+        "job": 2655.0
       }
     },
     "spawns": [
@@ -24079,13 +24936,15 @@
         "icon_url": "/images/items/4039.gif",
         "slot": "頭飾類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2646,
     "name": {
       "zh_tw": "迅捷魔菇",
-      "en": "C1_SPORE"
+      "en": "C1_SPORE",
+      "ko_kr": "빠른 스포아"
     },
     "image_url": "images/monsters/2646.gif",
     "basic_info": {
@@ -24100,8 +24959,8 @@
     "stats": {
       "hp": 1115,
       "attack": {
-        "min": 57,
-        "max": 69
+        "min": 9,
+        "max": 9
       },
       "magic_attack": {
         "min": 24,
@@ -24118,6 +24977,10 @@
         "int": 1,
         "dex": 12,
         "luk": 1
+      },
+      "exp": {
+        "base": 2625.0,
+        "job": 1875.0
       }
     },
     "spawns": [
@@ -24199,13 +25062,15 @@
         "icon_url": "images/items/7033.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2648,
     "name": {
       "zh_tw": "菁英邪骸士兵",
-      "en": "C3_SOLDIER_SKELETON"
+      "en": "C3_SOLDIER_SKELETON",
+      "ko_kr": "두목 솔져 스켈레톤"
     },
     "image_url": "/images/monsters/2648.gif",
     "basic_info": {
@@ -24220,8 +25085,8 @@
     "stats": {
       "hp": 5870,
       "attack": {
-        "min": 128,
-        "max": 168
+        "min": 51,
+        "max": 51
       },
       "magic_attack": {
         "min": 48,
@@ -24238,6 +25103,10 @@
         "int": 5,
         "dex": 29,
         "luk": 3
+      },
+      "exp": {
+        "base": 7230.0,
+        "job": 5040.0
       }
     },
     "spawns": [
@@ -24319,13 +25188,15 @@
         "icon_url": "images/items/4086.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2649,
     "name": {
       "zh_tw": "憤怒邪骸士兵",
-      "en": "C4_SOLDIER_SKELETON"
+      "en": "C4_SOLDIER_SKELETON",
+      "ko_kr": "분노의 솔져 스켈레톤"
     },
     "image_url": "/images/monsters/2649.gif",
     "basic_info": {
@@ -24340,8 +25211,8 @@
     "stats": {
       "hp": 5870,
       "attack": {
-        "min": 128,
-        "max": 168
+        "min": 51,
+        "max": 51
       },
       "magic_attack": {
         "min": 48,
@@ -24358,6 +25229,10 @@
         "int": 5,
         "dex": 29,
         "luk": 3
+      },
+      "exp": {
+        "base": 7230.0,
+        "job": 5040.0
       }
     },
     "spawns": [
@@ -24439,13 +25314,15 @@
         "icon_url": "images/items/4086.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2651,
     "name": {
       "zh_tw": "迅捷鬼女",
-      "en": "C1_SOHEE"
+      "en": "C1_SOHEE",
+      "ko_kr": "빠른 소희"
     },
     "image_url": "images/monsters/2651.gif",
     "basic_info": {
@@ -24460,8 +25337,8 @@
     "stats": {
       "hp": 28310,
       "attack": {
-        "min": 294,
-        "max": 380
+        "min": 168,
+        "max": 168
       },
       "magic_attack": {
         "min": 105,
@@ -24478,6 +25355,10 @@
         "int": 20,
         "dex": 41,
         "luk": 25
+      },
+      "exp": {
+        "base": 28800.0,
+        "job": 26100.0
       }
     },
     "spawns": [
@@ -24559,13 +25440,15 @@
         "icon_url": "/images/items/15012.gif",
         "slot": "盔甲"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2653,
     "name": {
       "zh_tw": "菁英青蛇",
-      "en": "C3_SNAKE"
+      "en": "C3_SNAKE",
+      "ko_kr": "두목 보아"
     },
     "image_url": "/images/monsters/2653.gif",
     "basic_info": {
@@ -24580,8 +25463,8 @@
     "stats": {
       "hp": 1015,
       "attack": {
-        "min": 49,
-        "max": 61
+        "min": 10,
+        "max": 10
       },
       "magic_attack": {
         "min": 31,
@@ -24598,6 +25481,10 @@
         "int": 10,
         "dex": 14,
         "luk": 15
+      },
+      "exp": {
+        "base": 2745.0,
+        "job": 1875.0
       }
     },
     "spawns": [
@@ -24664,13 +25551,15 @@
         "icon_url": "images/items/4037.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2663,
     "name": {
       "zh_tw": "菁英黑蛇",
-      "en": "C3_SIDE_WINDER"
+      "en": "C3_SIDE_WINDER",
+      "ko_kr": "두목 사이드 와인더"
     },
     "image_url": "/images/monsters/2663.gif",
     "basic_info": {
@@ -24685,8 +25574,8 @@
     "stats": {
       "hp": 79790,
       "attack": {
-        "min": 425,
-        "max": 577
+        "min": 393,
+        "max": 393
       },
       "magic_attack": {
         "min": 111,
@@ -24703,6 +25592,10 @@
         "int": 20,
         "dex": 73,
         "luk": 15
+      },
+      "exp": {
+        "base": 60060.0,
+        "job": 55095.0
       }
     },
     "spawns": [
@@ -24769,13 +25662,15 @@
         "icon_url": "images/items/4117.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2668,
     "name": {
       "zh_tw": "菁英海獺",
-      "en": "C3_SEE_OTTER"
+      "en": "C3_SEE_OTTER",
+      "ko_kr": "두목 해달"
     },
     "image_url": "/images/monsters/2668.gif",
     "basic_info": {
@@ -24790,8 +25685,8 @@
     "stats": {
       "hp": 25205,
       "attack": {
-        "min": 159,
-        "max": 199
+        "min": 108,
+        "max": 108
       },
       "magic_attack": {
         "min": 103,
@@ -24808,6 +25703,10 @@
         "int": 26,
         "dex": 41,
         "luk": 28
+      },
+      "exp": {
+        "base": 19440.0,
+        "job": 16815.0
       }
     },
     "spawns": [
@@ -24874,13 +25773,15 @@
         "icon_url": "/images/items/7065.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2670,
     "name": {
       "zh_tw": "狡猾蠍子",
-      "en": "C5_SCORPION"
+      "en": "C5_SCORPION",
+      "ko_kr": "떠도는 스콜피온"
     },
     "image_url": "images/monsters/2670.gif",
     "basic_info": {
@@ -24895,8 +25796,8 @@
     "stats": {
       "hp": 680,
       "attack": {
-        "min": 59,
-        "max": 75
+        "min": 8,
+        "max": 8
       },
       "magic_attack": {
         "min": 25,
@@ -24913,6 +25814,10 @@
         "int": 5,
         "dex": 19,
         "luk": 5
+      },
+      "exp": {
+        "base": 2535.0,
+        "job": 1725.0
       }
     },
     "spawns": [
@@ -24994,13 +25899,15 @@
         "icon_url": "images/items/4068.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2671,
     "name": {
       "zh_tw": "迅捷小野豬",
-      "en": "C1_SAVAGE_BABE"
+      "en": "C1_SAVAGE_BABE",
+      "ko_kr": "빠른 세비지 베베"
     },
     "image_url": "images/monsters/2671.gif",
     "basic_info": {
@@ -25015,8 +25922,8 @@
     "stats": {
       "hp": 635,
       "attack": {
-        "min": 47,
-        "max": 57
+        "min": 6,
+        "max": 6
       },
       "magic_attack": {
         "min": 23,
@@ -25033,6 +25940,10 @@
         "int": 5,
         "dex": 21,
         "luk": 18
+      },
+      "exp": {
+        "base": 2580.0,
+        "job": 1575.0
       }
     },
     "spawns": [
@@ -25099,13 +26010,15 @@
         "icon_url": "/images/items/4017.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2673,
     "name": {
       "zh_tw": "菁英野豬",
-      "en": "C3_SAVAGE"
+      "en": "C3_SAVAGE",
+      "ko_kr": "두목 세비지"
     },
     "image_url": "/images/monsters/2673.gif",
     "basic_info": {
@@ -25120,8 +26033,8 @@
     "stats": {
       "hp": 45315,
       "attack": {
-        "min": 288,
-        "max": 376
+        "min": 260,
+        "max": 260
       },
       "magic_attack": {
         "min": 85,
@@ -25138,6 +26051,10 @@
         "int": 10,
         "dex": 52,
         "luk": 15
+      },
+      "exp": {
+        "base": 33705.0,
+        "job": 28785.0
       }
     },
     "spawns": [
@@ -25204,13 +26121,15 @@
         "icon_url": "/images/items/6249.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2674,
     "name": {
       "zh_tw": "憤怒泥人",
-      "en": "C4_SAND_MAN"
+      "en": "C4_SAND_MAN",
+      "ko_kr": "분노의 샌드맨"
     },
     "image_url": "/images/monsters/2674.gif",
     "basic_info": {
@@ -25225,8 +26144,8 @@
     "stats": {
       "hp": 59665,
       "attack": {
-        "min": 261,
-        "max": 341
+        "min": 292,
+        "max": 292
       },
       "magic_attack": {
         "min": 115,
@@ -25243,6 +26162,10 @@
         "int": 15,
         "dex": 34,
         "luk": 25
+      },
+      "exp": {
+        "base": 45585.0,
+        "job": 39120.0
       }
     },
     "spawns": [
@@ -25324,13 +26247,15 @@
         "icon_url": "/images/items/7043.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2678,
     "name": {
       "zh_tw": "菁英羅達蛙",
-      "en": "C3_RODA_FROG"
+      "en": "C3_RODA_FROG",
+      "ko_kr": "두목 로다 프로그"
     },
     "image_url": "/images/monsters/2678.gif",
     "basic_info": {
@@ -25345,8 +26270,8 @@
     "stats": {
       "hp": 700,
       "attack": {
-        "min": 42,
-        "max": 52
+        "min": 4,
+        "max": 4
       },
       "magic_attack": {
         "min": 16,
@@ -25363,6 +26288,10 @@
         "int": 1,
         "dex": 14,
         "luk": 9
+      },
+      "exp": {
+        "base": 2430.0,
+        "job": 1500.0
       }
     },
     "spawns": [
@@ -25415,13 +26344,15 @@
         "icon_url": "images/items/4014.gif",
         "slot": "盔甲類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2679,
     "name": {
       "zh_tw": "憤怒羅達蛙",
-      "en": "C4_RODA_FROG"
+      "en": "C4_RODA_FROG",
+      "ko_kr": "분노의 로다 프로그"
     },
     "image_url": "/images/monsters/2679.gif",
     "basic_info": {
@@ -25436,8 +26367,8 @@
     "stats": {
       "hp": 700,
       "attack": {
-        "min": 42,
-        "max": 52
+        "min": 4,
+        "max": 4
       },
       "magic_attack": {
         "min": 16,
@@ -25454,6 +26385,10 @@
         "int": 1,
         "dex": 14,
         "luk": 9
+      },
+      "exp": {
+        "base": 2430.0,
+        "job": 1500.0
       }
     },
     "spawns": [
@@ -25506,13 +26441,15 @@
         "icon_url": "images/items/4014.gif",
         "slot": "盔甲類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2680,
     "name": {
       "zh_tw": "狡猾搖滾蝗蟲",
-      "en": "C5_ROCKER"
+      "en": "C5_ROCKER",
+      "ko_kr": "떠도는 로커"
     },
     "image_url": "/images/monsters/2680.gif",
     "basic_info": {
@@ -25525,10 +26462,10 @@
       "size": "中"
     },
     "stats": {
-      "hp": 925,
+      "hp": 775,
       "attack": {
-        "min": 44,
-        "max": 54
+        "min": 7,
+        "max": 7
       },
       "magic_attack": {
         "min": 28,
@@ -25545,6 +26482,10 @@
         "int": 10,
         "dex": 17,
         "luk": 5
+      },
+      "exp": {
+        "base": 2610.0,
+        "job": 1650.0
       }
     },
     "spawns": [
@@ -25626,13 +26567,15 @@
         "icon_url": "images/items/4021.gif",
         "slot": "盔甲類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2694,
     "name": {
       "zh_tw": "狡猾奈吉鳥",
-      "en": "C5_RAGGLER"
+      "en": "C5_RAGGLER",
+      "ko_kr": "떠도는 레글러"
     },
     "image_url": "/images/monsters/2694.gif",
     "basic_info": {
@@ -25647,8 +26590,8 @@
     "stats": {
       "hp": 16840,
       "attack": {
-        "min": 146,
-        "max": 182
+        "min": 120,
+        "max": 120
       },
       "magic_attack": {
         "min": 90,
@@ -25665,6 +26608,10 @@
         "int": 15,
         "dex": 54,
         "luk": 27
+      },
+      "exp": {
+        "base": 19440.0,
+        "job": 16815.0
       }
     },
     "spawns": [
@@ -25731,13 +26678,15 @@
         "icon_url": "/images/items/7053.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2696,
     "name": {
       "zh_tw": "菁英波利",
-      "en": "C3_PORING"
+      "en": "C3_PORING",
+      "ko_kr": "두목 포링"
     },
     "image_url": "/images/monsters/2696.gif",
     "basic_info": {
@@ -25752,8 +26701,8 @@
     "stats": {
       "hp": 275,
       "attack": {
-        "min": 14,
-        "max": 18
+        "min": 1,
+        "max": 1
       },
       "magic_attack": {
         "min": 2,
@@ -25770,6 +26719,10 @@
         "int": 1,
         "dex": 6,
         "luk": 5
+      },
+      "exp": {
+        "base": 2250.0,
+        "job": 600.0
       }
     },
     "spawns": [
@@ -25851,13 +26804,15 @@
         "icon_url": "images/items/4001.gif",
         "slot": "盔甲類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2697,
     "name": {
       "zh_tw": "憤怒波利",
-      "en": "C4_PORING"
+      "en": "C4_PORING",
+      "ko_kr": "분노의 포링"
     },
     "image_url": "/images/monsters/2697.gif",
     "basic_info": {
@@ -25872,8 +26827,8 @@
     "stats": {
       "hp": 275,
       "attack": {
-        "min": 13,
-        "max": 17
+        "min": 1,
+        "max": 1
       },
       "magic_attack": {
         "min": 2,
@@ -25890,6 +26845,10 @@
         "int": 1,
         "dex": 6,
         "luk": 5
+      },
+      "exp": {
+        "base": 2250.0,
+        "job": 600.0
       }
     },
     "spawns": [
@@ -25971,13 +26930,15 @@
         "icon_url": "images/items/4001.gif",
         "slot": "盔甲類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2698,
     "name": {
       "zh_tw": "狡猾波利",
-      "en": "C5_PORING"
+      "en": "C5_PORING",
+      "ko_kr": "떠도는 포링"
     },
     "image_url": "/images/monsters/2698.gif",
     "basic_info": {
@@ -25992,8 +26953,8 @@
     "stats": {
       "hp": 275,
       "attack": {
-        "min": 14,
-        "max": 18
+        "min": 1,
+        "max": 1
       },
       "magic_attack": {
         "min": 2,
@@ -26010,6 +26971,10 @@
         "int": 1,
         "dex": 6,
         "luk": 5
+      },
+      "exp": {
+        "base": 2250.0,
+        "job": 600.0
       }
     },
     "spawns": [
@@ -26091,13 +27056,15 @@
         "icon_url": "images/items/4001.gif",
         "slot": "盔甲類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2699,
     "name": {
       "zh_tw": "迅捷波利",
-      "en": "C1_PORING"
+      "en": "C1_PORING",
+      "ko_kr": "빠른 포링"
     },
     "image_url": "/images/monsters/2699.gif",
     "basic_info": {
@@ -26112,8 +27079,8 @@
     "stats": {
       "hp": 275,
       "attack": {
-        "min": 14,
-        "max": 18
+        "min": 1,
+        "max": 1
       },
       "magic_attack": {
         "min": 2,
@@ -26130,6 +27097,10 @@
         "int": 1,
         "dex": 6,
         "luk": 5
+      },
+      "exp": {
+        "base": 2250.0,
+        "job": 600.0
       }
     },
     "spawns": [
@@ -26216,13 +27187,15 @@
         "icon_url": "images/items/4001.gif",
         "slot": "盔甲類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2703,
     "name": {
       "zh_tw": "狡猾波波利",
-      "en": "C5_POPORING"
+      "en": "C5_POPORING",
+      "ko_kr": "떠도는 포포링"
     },
     "image_url": "images/monsters/2703.gif",
     "basic_info": {
@@ -26237,8 +27210,8 @@
     "stats": {
       "hp": 4435,
       "attack": {
-        "min": 117,
-        "max": 153
+        "min": 40,
+        "max": 40
       },
       "magic_attack": {
         "min": 62,
@@ -26255,6 +27228,10 @@
         "int": 18,
         "dex": 36,
         "luk": 5
+      },
+      "exp": {
+        "base": 6225.0,
+        "job": 4920.0
       }
     },
     "spawns": [
@@ -26336,13 +27313,15 @@
         "icon_url": "images/items/4033.gif",
         "slot": "裝飾品類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2705,
     "name": {
       "zh_tw": "雄壯毒魔菇",
-      "en": "C2_POISON_SPORE"
+      "en": "C2_POISON_SPORE",
+      "ko_kr": "튼튼한 포이즌 스포아"
     },
     "image_url": "/images/monsters/2705.gif",
     "basic_info": {
@@ -26357,8 +27336,8 @@
     "stats": {
       "hp": 5830,
       "attack": {
-        "min": 109,
-        "max": 143
+        "min": 29,
+        "max": 29
       },
       "magic_attack": {
         "min": 41,
@@ -26375,6 +27354,10 @@
         "int": 5,
         "dex": 20,
         "luk": 5
+      },
+      "exp": {
+        "base": 4815.0,
+        "job": 3705.0
       }
     },
     "spawns": [
@@ -26441,7 +27424,8 @@
         "icon_url": "images/items/7033.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2707,
@@ -26561,13 +27545,15 @@
         "icon_url": "/images/items/4024.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 2712,
     "name": {
       "zh_tw": "憤怒小雞",
-      "en": "C4_PICKY_"
+      "en": "C4_PICKY_",
+      "ko_kr": "분노의 픽키"
     },
     "image_url": "/images/monsters/2712.gif",
     "basic_info": {
@@ -26582,8 +27568,8 @@
     "stats": {
       "hp": 385,
       "attack": {
-        "min": 41,
-        "max": 49
+        "min": 1,
+        "max": 1
       },
       "magic_attack": {
         "min": 29,
@@ -26600,6 +27586,10 @@
         "int": 5,
         "dex": 9,
         "luk": 3
+      },
+      "exp": {
+        "base": 2325.0,
+        "job": 1275.0
       }
     },
     "spawns": [
@@ -26681,7 +27671,8 @@
         "icon_url": "images/items/10012.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2713,
@@ -26794,13 +27785,15 @@
         "icon_url": "/images/items/4077.gif",
         "slot": "裝飾品類卡片"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 2714,
     "name": {
       "zh_tw": "迅捷畢帝特地龍",
-      "en": "C1_PETIT"
+      "en": "C1_PETIT",
+      "ko_kr": "빠른 쁘띠"
     },
     "image_url": "images/monsters/2714.gif",
     "basic_info": {
@@ -26815,8 +27808,8 @@
     "stats": {
       "hp": 118055,
       "attack": {
-        "min": 449,
-        "max": 603
+        "min": 433,
+        "max": 433
       },
       "magic_attack": {
         "min": 169,
@@ -26833,6 +27826,10 @@
         "int": 37,
         "dex": 65,
         "luk": 20
+      },
+      "exp": {
+        "base": 98055.0,
+        "job": 87585.0
       }
     },
     "spawns": [
@@ -26899,13 +27896,15 @@
         "icon_url": "/images/items/16040.gif",
         "slot": "鈍器"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2715,
     "name": {
       "zh_tw": "雄壯畢帝特地龍",
-      "en": "C2_PETIT"
+      "en": "C2_PETIT",
+      "ko_kr": "튼튼한 쁘띠"
     },
     "image_url": "images/monsters/2715.gif",
     "basic_info": {
@@ -26920,8 +27919,8 @@
     "stats": {
       "hp": 236110,
       "attack": {
-        "min": 449,
-        "max": 603
+        "min": 433,
+        "max": 433
       },
       "magic_attack": {
         "min": 169,
@@ -26938,6 +27937,10 @@
         "int": 37,
         "dex": 65,
         "luk": 20
+      },
+      "exp": {
+        "base": 98055.0,
+        "job": 87585.0
       }
     },
     "spawns": [
@@ -27004,13 +28007,15 @@
         "icon_url": "/images/items/16040.gif",
         "slot": "鈍器"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2718,
     "name": {
       "zh_tw": "狡猾大嘴鳥",
-      "en": "C5_PECOPECO"
+      "en": "C5_PECOPECO",
+      "ko_kr": "떠도는 페코페코"
     },
     "image_url": "images/monsters/2718.gif",
     "basic_info": {
@@ -27025,8 +28030,8 @@
     "stats": {
       "hp": 2625,
       "attack": {
-        "min": 118,
-        "max": 156
+        "min": 29,
+        "max": 29
       },
       "magic_attack": {
         "min": 34,
@@ -27043,6 +28048,10 @@
         "int": 5,
         "dex": 28,
         "luk": 5
+      },
+      "exp": {
+        "base": 4530.0,
+        "job": 3465.0
       }
     },
     "spawns": [
@@ -27102,13 +28111,15 @@
         "icon_url": "images/items/4031.gif",
         "slot": "盔甲類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2720,
     "name": {
       "zh_tw": "雄壯苗娃佩瑞絲",
-      "en": "C2_PARASITE"
+      "en": "C2_PARASITE",
+      "ko_kr": "튼튼한 패러사이트"
     },
     "image_url": "/images/monsters/2720.gif",
     "basic_info": {
@@ -27123,8 +28134,8 @@
     "stats": {
       "hp": 200970,
       "attack": {
-        "min": 300,
-        "max": 386
+        "min": 393,
+        "max": 393
       },
       "magic_attack": {
         "min": 157,
@@ -27141,6 +28152,10 @@
         "int": 50,
         "dex": 106,
         "luk": 40
+      },
+      "exp": {
+        "base": 77295.0,
+        "job": 71565.0
       }
     },
     "spawns": [
@@ -27207,13 +28222,15 @@
         "icon_url": "/images/items/7198.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2722,
     "name": {
       "zh_tw": "憤怒獸人戰士",
-      "en": "C4_ORK_WARRIOR"
+      "en": "C4_ORK_WARRIOR",
+      "ko_kr": "분노의 오크 워리어"
     },
     "image_url": "images/monsters/2722.gif",
     "basic_info": {
@@ -27228,8 +28245,8 @@
     "stats": {
       "hp": 16330,
       "attack": {
-        "min": 143,
-        "max": 177
+        "min": 120,
+        "max": 120
       },
       "magic_attack": {
         "min": 82,
@@ -27246,6 +28263,10 @@
         "int": 15,
         "dex": 16,
         "luk": 10
+      },
+      "exp": {
+        "base": 16890.0,
+        "job": 13710.0
       }
     },
     "spawns": [
@@ -27327,13 +28348,15 @@
         "icon_url": "images/items/4066.gif",
         "slot": "盾牌類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2725,
     "name": {
       "zh_tw": "雄壯獸人女戰士",
-      "en": "C2_ORC_LADY"
+      "en": "C2_ORC_LADY",
+      "ko_kr": "튼튼한 오크 레이디"
     },
     "image_url": "/images/monsters/2725.gif",
     "basic_info": {
@@ -27348,8 +28371,8 @@
     "stats": {
       "hp": 37090,
       "attack": {
-        "min": 154,
-        "max": 192
+        "min": 133,
+        "max": 133
       },
       "magic_attack": {
         "min": 78,
@@ -27366,6 +28389,10 @@
         "int": 10,
         "dex": 57,
         "luk": 5
+      },
+      "exp": {
+        "base": 17925.0,
+        "job": 14625.0
       }
     },
     "spawns": [
@@ -27432,13 +28459,15 @@
         "icon_url": "/images/items/15012.gif",
         "slot": "盔甲"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2741,
     "name": {
       "zh_tw": "菁英摩卡",
-      "en": "C3_MUKA"
+      "en": "C3_MUKA",
+      "ko_kr": "두목 무카"
     },
     "image_url": "/images/monsters/2741.gif",
     "basic_info": {
@@ -27453,8 +28482,8 @@
     "stats": {
       "hp": 2315,
       "attack": {
-        "min": 104,
-        "max": 136
+        "min": 24,
+        "max": 24
       },
       "magic_attack": {
         "min": 34,
@@ -27471,6 +28500,10 @@
         "int": 5,
         "dex": 43,
         "luk": 5
+      },
+      "exp": {
+        "base": 4215.0,
+        "job": 3045.0
       }
     },
     "spawns": [
@@ -27537,13 +28570,15 @@
         "icon_url": "images/items/4036.gif",
         "slot": "裝飾品類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2754,
     "name": {
       "zh_tw": "迅捷重金屬蝗蟲",
-      "en": "C1_METALLER"
+      "en": "C1_METALLER",
+      "ko_kr": "빠른 메틀러"
     },
     "image_url": "images/monsters/2754.gif",
     "basic_info": {
@@ -27558,8 +28593,8 @@
     "stats": {
       "hp": 29440,
       "attack": {
-        "min": 295,
-        "max": 389
+        "min": 181,
+        "max": 181
       },
       "magic_attack": {
         "min": 84,
@@ -27576,6 +28611,10 @@
         "int": 1,
         "dex": 52,
         "luk": 31
+      },
+      "exp": {
+        "base": 27675.0,
+        "job": 24525.0
       }
     },
     "spawns": [
@@ -27642,7 +28681,8 @@
         "icon_url": "images/items/4057.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2757,
@@ -27762,13 +28802,15 @@
         "icon_url": "/images/items/4199.gif",
         "slot": "鞋子類卡片"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 2759,
     "name": {
       "zh_tw": "迅捷米杜沙",
-      "en": "C1_MEDUSA"
+      "en": "C1_MEDUSA",
+      "ko_kr": "빠른 메두사"
     },
     "image_url": "images/monsters/2759.gif",
     "basic_info": {
@@ -27781,10 +28823,10 @@
       "size": "中"
     },
     "stats": {
-      "hp": "未知",
+      "hp": 129435,
       "attack": {
-        "min": 796,
-        "max": 1094
+        "min": 589,
+        "max": 589
       },
       "magic_attack": {
         "min": 260,
@@ -27801,6 +28843,10 @@
         "int": 79,
         "dex": 83,
         "luk": 15
+      },
+      "exp": {
+        "base": 119715.0,
+        "job": 113745.0
       }
     },
     "spawns": [
@@ -27882,13 +28928,15 @@
         "icon_url": "/images/items/4124.gif",
         "slot": "盾牌類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2765,
     "name": {
       "zh_tw": "雄壯曼陀羅魔花",
-      "en": "C2_MANDRAGORA"
+      "en": "C2_MANDRAGORA",
+      "ko_kr": "튼튼한 만드라고라"
     },
     "image_url": "/images/monsters/2765.gif",
     "basic_info": {
@@ -27903,8 +28951,8 @@
     "stats": {
       "hp": 1400,
       "attack": {
-        "min": 44,
-        "max": 54
+        "min": 4,
+        "max": 4
       },
       "magic_attack": {
         "min": 20,
@@ -27921,6 +28969,10 @@
         "int": 5,
         "dex": 10,
         "luk": 5
+      },
+      "exp": {
+        "base": 2550.0,
+        "job": 1500.0
       }
     },
     "spawns": [
@@ -28002,13 +29054,15 @@
         "icon_url": "images/items/4030.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2768,
     "name": {
       "zh_tw": "狡猾魔鍋蛋",
-      "en": "C5_MAGNOLIA"
+      "en": "C5_MAGNOLIA",
+      "ko_kr": "떠도는 백련옥"
     },
     "image_url": "/images/monsters/2768.gif",
     "basic_info": {
@@ -28023,8 +29077,8 @@
     "stats": {
       "hp": 29200,
       "attack": {
-        "min": 194,
-        "max": 240
+        "min": 117,
+        "max": 117
       },
       "magic_attack": {
         "min": 218,
@@ -28041,6 +29095,10 @@
         "int": 50,
         "dex": 31,
         "luk": 85
+      },
+      "exp": {
+        "base": 25275.0,
+        "job": 22275.0
       }
     },
     "spawns": [
@@ -28107,7 +29165,8 @@
         "icon_url": "images/items/12127.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2770,
@@ -28227,13 +29286,15 @@
         "icon_url": "images/items/4006.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2771,
     "name": {
       "zh_tw": "菁英瘋兔",
-      "en": "C3_LUNATIC"
+      "en": "C3_LUNATIC",
+      "ko_kr": "투목 루나틱"
     },
     "image_url": "/images/monsters/2771.gif",
     "basic_info": {
@@ -28248,8 +29309,8 @@
     "stats": {
       "hp": 240,
       "attack": {
-        "min": 23,
-        "max": 29
+        "min": 1,
+        "max": 1
       },
       "magic_attack": {
         "min": 4,
@@ -28266,6 +29327,10 @@
         "int": 1,
         "dex": 8,
         "luk": 5
+      },
+      "exp": {
+        "base": 2250.0,
+        "job": 750.0
       }
     },
     "spawns": [
@@ -28332,13 +29397,15 @@
         "icon_url": "images/items/4006.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2787,
     "name": {
       "zh_tw": "憤怒巨象甲蟲",
-      "en": "C4_KIND_OF_BEETLE"
+      "en": "C4_KIND_OF_BEETLE",
+      "ko_kr": "분노의 투구벌레"
     },
     "image_url": "/images/monsters/2787.gif",
     "basic_info": {
@@ -28353,8 +29420,8 @@
     "stats": {
       "hp": 29440,
       "attack": {
-        "min": 218,
-        "max": 274
+        "min": 181,
+        "max": 181
       },
       "magic_attack": {
         "min": 92,
@@ -28371,6 +29438,10 @@
         "int": 1,
         "dex": 50,
         "luk": 1
+      },
+      "exp": {
+        "base": 29040.0,
+        "job": 24525.0
       }
     },
     "spawns": [
@@ -28423,17 +29494,19 @@
         "icon_url": "/images/items/7202.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2798,
     "name": {
       "zh_tw": "狡猾蜂兵",
-      "en": "C5_HORNET"
+      "en": "C5_HORNET",
+      "ko_kr": "분노의 헌터 플라이"
     },
     "image_url": "/images/monsters/2798.gif",
     "basic_info": {
-      "level": 11,
+      "level": 63,
       "race": "昆蟲",
       "element": {
         "type": "風",
@@ -28442,10 +29515,10 @@
       "size": "小"
     },
     "stats": {
-      "hp": 425,
+      "hp": 29955,
       "attack": {
-        "min": 35,
-        "max": 41
+        "min": 183,
+        "max": 183
       },
       "magic_attack": {
         "min": 18,
@@ -28462,6 +29535,10 @@
         "int": 5,
         "dex": 6,
         "luk": 5
+      },
+      "exp": {
+        "base": 27780.0,
+        "job": 25125.0
       }
     },
     "spawns": [
@@ -28528,13 +29605,15 @@
         "icon_url": "images/items/4019.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2800,
     "name": {
       "zh_tw": "雄壯鍬形蟲",
-      "en": "C2_HORN"
+      "en": "C2_HORN",
+      "ko_kr": "튼튼한 호른"
     },
     "image_url": "images/monsters/2800.gif",
     "basic_info": {
@@ -28549,8 +29628,8 @@
     "stats": {
       "hp": 10850,
       "attack": {
-        "min": 102,
-        "max": 134
+        "min": 52,
+        "max": 52
       },
       "magic_attack": {
         "min": 64,
@@ -28567,6 +29646,10 @@
         "int": 25,
         "dex": 21,
         "luk": 35
+      },
+      "exp": {
+        "base": 7470.0,
+        "job": 5715.0
       }
     },
     "spawns": [
@@ -28633,13 +29716,15 @@
         "icon_url": "images/items/4045.gif",
         "slot": "盾牌類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2802,
     "name": {
       "zh_tw": "憤怒蚯蚓",
-      "en": "C4_HODE"
+      "en": "C4_HODE",
+      "ko_kr": "분노의 호드"
     },
     "image_url": "/images/monsters/2802.gif",
     "basic_info": {
@@ -28654,8 +29739,8 @@
     "stats": {
       "hp": 61780,
       "attack": {
-        "min": 295,
-        "max": 381
+        "min": 301,
+        "max": 301
       },
       "magic_attack": {
         "min": 99,
@@ -28672,6 +29757,10 @@
         "int": 5,
         "dex": 32,
         "luk": 40
+      },
+      "exp": {
+        "base": 48720.0,
+        "job": 42000.0
       }
     },
     "spawns": [
@@ -28738,13 +29827,15 @@
         "icon_url": "images/items/7021.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2808,
     "name": {
       "zh_tw": "狡猾綠變色龍",
-      "en": "C5_GREEN_IGUANA"
+      "en": "C5_GREEN_IGUANA",
+      "ko_kr": "떠도는 그로브"
     },
     "image_url": "/images/monsters/2808.gif",
     "basic_info": {
@@ -28759,8 +29850,8 @@
     "stats": {
       "hp": 34330,
       "attack": {
-        "min": 253,
-        "max": 323
+        "min": 206,
+        "max": 206
       },
       "magic_attack": {
         "min": 84,
@@ -28777,6 +29868,10 @@
         "int": 5,
         "dex": 50,
         "luk": 17
+      },
+      "exp": {
+        "base": 29040.0,
+        "job": 24525.0
       }
     },
     "spawns": [
@@ -28843,13 +29938,15 @@
         "icon_url": "/images/items/6264.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2809,
     "name": {
       "zh_tw": "迅捷將軍魔碑",
-      "en": "C1_GREATEST_GENERAL"
+      "en": "C1_GREATEST_GENERAL",
+      "ko_kr": "빠른 천하대장군"
     },
     "image_url": "/images/monsters/2809.gif",
     "basic_info": {
@@ -28864,8 +29961,8 @@
     "stats": {
       "hp": 27815,
       "attack": {
-        "min": 329,
-        "max": 439
+        "min": 181,
+        "max": 181
       },
       "magic_attack": {
         "min": 98,
@@ -28882,6 +29979,10 @@
         "int": 25,
         "dex": 28,
         "luk": 20
+      },
+      "exp": {
+        "base": 27675.0,
+        "job": 24525.0
       }
     },
     "spawns": [
@@ -28948,13 +30049,15 @@
         "icon_url": "/images/items/7054.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2812,
     "name": {
       "zh_tw": "憤怒巨石怪",
-      "en": "C4_GOLEM"
+      "en": "C4_GOLEM",
+      "ko_kr": "분노의 고렘"
     },
     "image_url": "/images/monsters/2812.gif",
     "basic_info": {
@@ -28969,8 +30072,8 @@
     "stats": {
       "hp": 59665,
       "attack": {
-        "min": 329,
-        "max": 429
+        "min": 267,
+        "max": 267
       },
       "magic_attack": {
         "min": 83,
@@ -28987,6 +30090,10 @@
         "int": 5,
         "dex": 34,
         "luk": 5
+      },
+      "exp": {
+        "base": 43440.0,
+        "job": 39120.0
       }
     },
     "spawns": [
@@ -29053,13 +30160,15 @@
         "icon_url": "images/items/4072.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2813,
     "name": {
       "zh_tw": "狡猾哥布靈",
-      "en": "C5_GOBLIN_1"
+      "en": "C5_GOBLIN_1",
+      "ko_kr": "떠도는 고블린"
     },
     "image_url": "/images/monsters/2813.gif",
     "basic_info": {
@@ -29074,8 +30183,8 @@
     "stats": {
       "hp": 18925,
       "attack": {
-        "min": 168,
-        "max": 210
+        "min": 133,
+        "max": 133
       },
       "magic_attack": {
         "min": 91,
@@ -29092,6 +30201,10 @@
         "int": 20,
         "dex": 36,
         "luk": 10
+      },
+      "exp": {
+        "base": 19440.0,
+        "job": 16815.0
       }
     },
     "spawns": [
@@ -29173,13 +30286,15 @@
         "icon_url": "images/items/4060.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2814,
     "name": {
       "zh_tw": "迅捷哥布靈",
-      "en": "C1_GOBLIN_1"
+      "en": "C1_GOBLIN_1",
+      "ko_kr": "빠른 고블린"
     },
     "image_url": "/images/monsters/2814.gif",
     "basic_info": {
@@ -29194,8 +30309,8 @@
     "stats": {
       "hp": 18925,
       "attack": {
-        "min": 168,
-        "max": 210
+        "min": 133,
+        "max": 133
       },
       "magic_attack": {
         "min": 91,
@@ -29212,6 +30327,10 @@
         "int": 20,
         "dex": 36,
         "luk": 10
+      },
+      "exp": {
+        "base": 19440.0,
+        "job": 16815.0
       }
     },
     "spawns": [
@@ -29293,13 +30412,15 @@
         "icon_url": "images/items/4060.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2829,
     "name": {
       "zh_tw": "迅捷海豹寶寶",
-      "en": "C1_FUR_SEAL"
+      "en": "C1_FUR_SEAL",
+      "ko_kr": "빠른 퍼씰"
     },
     "image_url": "/images/monsters/2829.gif",
     "basic_info": {
@@ -29314,8 +30435,8 @@
     "stats": {
       "hp": 21840,
       "attack": {
-        "min": 167,
-        "max": 209
+        "min": 103,
+        "max": 103
       },
       "magic_attack": {
         "min": 114,
@@ -29332,6 +30453,10 @@
         "int": 39,
         "dex": 35,
         "luk": 19
+      },
+      "exp": {
+        "base": 18645.0,
+        "job": 16065.0
       }
     },
     "spawns": [
@@ -29413,7 +30538,8 @@
         "icon_url": "/images/items/7053.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2833,
@@ -29533,13 +30659,15 @@
         "icon_url": "images/items/4020.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2835,
     "name": {
       "zh_tw": "雄壯綠棉蟲",
-      "en": "C2_FABRE"
+      "en": "C2_FABRE",
+      "ko_kr": "튼튼한 파브르"
     },
     "image_url": "/images/monsters/2835.gif",
     "basic_info": {
@@ -29554,8 +30682,8 @@
     "stats": {
       "hp": 590,
       "attack": {
-        "min": 29,
-        "max": 35
+        "min": 1,
+        "max": 1
       },
       "magic_attack": {
         "min": 13,
@@ -29572,6 +30700,10 @@
         "int": 5,
         "dex": 12,
         "luk": 5
+      },
+      "exp": {
+        "base": 2370.0,
+        "job": 975.0
       }
     },
     "spawns": [
@@ -29638,13 +30770,15 @@
         "icon_url": "images/items/4002.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2836,
     "name": {
       "zh_tw": "菁英綠棉蟲",
-      "en": "C3_FABRE"
+      "en": "C3_FABRE",
+      "ko_kr": "두목 파브르"
     },
     "image_url": "images/monsters/2836.gif",
     "basic_info": {
@@ -29659,8 +30793,8 @@
     "stats": {
       "hp": 295,
       "attack": {
-        "min": 29,
-        "max": 35
+        "min": 1,
+        "max": 1
       },
       "magic_attack": {
         "min": 13,
@@ -29677,6 +30811,10 @@
         "int": 5,
         "dex": 12,
         "luk": 5
+      },
+      "exp": {
+        "base": 2370.0,
+        "job": 975.0
       }
     },
     "spawns": [
@@ -29758,13 +30896,15 @@
         "icon_url": "images/items/4002.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2839,
     "name": {
       "zh_tw": "迅捷長老樹精",
-      "en": "C1_ELDER_WILOW"
+      "en": "C1_ELDER_WILOW",
+      "ko_kr": "빠른 엘더 윌로우"
     },
     "image_url": "/images/monsters/2839.gif",
     "basic_info": {
@@ -29779,8 +30919,8 @@
     "stats": {
       "hp": 5440,
       "attack": {
-        "min": 120,
-        "max": 160
+        "min": 56,
+        "max": 56
       },
       "magic_attack": {
         "min": 44,
@@ -29797,6 +30937,10 @@
         "int": 1,
         "dex": 29,
         "luk": 1
+      },
+      "exp": {
+        "base": 7905.0,
+        "job": 6405.0
       }
     },
     "spawns": [
@@ -29863,13 +31007,15 @@
         "icon_url": "images/items/7939.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2840,
     "name": {
       "zh_tw": "雄壯長老樹精",
-      "en": "C2_ELDER_WILOW"
+      "en": "C2_ELDER_WILOW",
+      "ko_kr": "튼튼한 엘더 윌로두"
     },
     "image_url": "/images/monsters/2840.gif",
     "basic_info": {
@@ -29884,8 +31030,8 @@
     "stats": {
       "hp": 10880,
       "attack": {
-        "min": 120,
-        "max": 160
+        "min": 56,
+        "max": 56
       },
       "magic_attack": {
         "min": 44,
@@ -29902,6 +31048,10 @@
         "int": 1,
         "dex": 29,
         "luk": 1
+      },
+      "exp": {
+        "base": 7905.0,
+        "job": 6405.0
       }
     },
     "spawns": [
@@ -29968,13 +31118,15 @@
         "icon_url": "images/items/7939.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2842,
     "name": {
       "zh_tw": "憤怒獵蠅",
-      "en": "C4_DUSTINESS"
+      "en": "C4_DUSTINESS",
+      "ko_kr": "분노의 더스티네스"
     },
     "image_url": "/images/monsters/2842.gif",
     "basic_info": {
@@ -29989,8 +31141,8 @@
     "stats": {
       "hp": 48070,
       "attack": {
-        "min": 266,
-        "max": 346
+        "min": 228,
+        "max": 228
       },
       "magic_attack": {
         "min": 143,
@@ -30007,6 +31159,10 @@
         "int": 60,
         "dex": 75,
         "luk": 105
+      },
+      "exp": {
+        "base": 44925.0,
+        "job": 40560.0
       }
     },
     "spawns": [
@@ -30066,13 +31222,15 @@
         "icon_url": "images/items/4056.gif",
         "slot": "披風類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2843,
     "name": {
       "zh_tw": "迅捷森林妖姬",
-      "en": "C1_DRYAD"
+      "en": "C1_DRYAD",
+      "ko_kr": "빠른 드라이어드"
     },
     "image_url": "/images/monsters/2843.gif",
     "basic_info": {
@@ -30087,8 +31245,8 @@
     "stats": {
       "hp": 80565,
       "attack": {
-        "min": 389,
-        "max": 523
+        "min": 370,
+        "max": 370
       },
       "magic_attack": {
         "min": 127,
@@ -30105,6 +31263,10 @@
         "int": 35,
         "dex": 74,
         "luk": 10
+      },
+      "exp": {
+        "base": 58590.0,
+        "job": 51045.0
       }
     },
     "spawns": [
@@ -30171,13 +31333,15 @@
         "icon_url": "/images/items/7198.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2845,
     "name": {
       "zh_tw": "菁英土波利",
-      "en": "C3_DROPS"
+      "en": "C3_DROPS",
+      "ko_kr": "두목 드롭프스"
     },
     "image_url": "/images/monsters/2845.gif",
     "basic_info": {
@@ -30192,8 +31356,8 @@
     "stats": {
       "hp": 230,
       "attack": {
-        "min": 21,
-        "max": 27
+        "min": 1,
+        "max": 1
       },
       "magic_attack": {
         "min": 3,
@@ -30210,6 +31374,10 @@
         "int": 1,
         "dex": 6,
         "luk": 2
+      },
+      "exp": {
+        "base": 2250.0,
+        "job": 675.0
       }
     },
     "spawns": [
@@ -30276,13 +31444,15 @@
         "icon_url": "images/items/4004.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2846,
     "name": {
       "zh_tw": "憤怒爆鑽傘蜥",
-      "en": "C4_DRILLER"
+      "en": "C4_DRILLER",
+      "ko_kr": "분노의 드릴러"
     },
     "image_url": "images/monsters/2846.gif",
     "basic_info": {
@@ -30298,7 +31468,7 @@
       "hp": 64505,
       "attack": {
         "min": 309,
-        "max": 401
+        "max": 309
       },
       "magic_attack": {
         "min": 101,
@@ -30315,6 +31485,10 @@
         "int": 15,
         "dex": 53,
         "luk": 5
+      },
+      "exp": {
+        "base": 52575.0,
+        "job": 45525.0
       }
     },
     "spawns": [
@@ -30353,13 +31527,15 @@
         "icon_url": "/images/items/4180.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2851,
     "name": {
       "zh_tw": "憤怒土人",
-      "en": "C4_DOKEBI"
+      "en": "C4_DOKEBI",
+      "ko_kr": "분노의 도깨비"
     },
     "image_url": "images/monsters/2851.gif",
     "basic_info": {
@@ -30374,8 +31550,8 @@
     "stats": {
       "hp": 30475,
       "attack": {
-        "min": 438,
-        "max": 598
+        "min": 193,
+        "max": 193
       },
       "magic_attack": {
         "min": 109,
@@ -30392,6 +31568,10 @@
         "int": 20,
         "dex": 66,
         "luk": 25
+      },
+      "exp": {
+        "base": 33195.0,
+        "job": 30345.0
       }
     },
     "spawns": [
@@ -30466,7 +31646,8 @@
         "icon_url": "/images/items/1613.gif",
         "slot": "單手杖"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2855,
@@ -30571,13 +31752,15 @@
         "icon_url": "images/items/13011.gif",
         "slot": "短劍"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 2857,
     "name": {
       "zh_tw": "狡猾兵蟻",
-      "en": "C5_DENIRO"
+      "en": "C5_DENIRO",
+      "ko_kr": "떠도는 데니로"
     },
     "image_url": "/images/monsters/2857.gif",
     "basic_info": {
@@ -30592,8 +31775,8 @@
     "stats": {
       "hp": 4485,
       "attack": {
-        "min": 89,
-        "max": 111
+        "min": 44,
+        "max": 44
       },
       "magic_attack": {
         "min": 52,
@@ -30610,6 +31793,10 @@
         "int": 10,
         "dex": 23,
         "luk": 15
+      },
+      "exp": {
+        "base": 7095.0,
+        "job": 5385.0
       }
     },
     "spawns": [
@@ -30696,13 +31883,15 @@
         "icon_url": "images/items/4043.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2863,
     "name": {
       "zh_tw": "迅捷克瑞米",
-      "en": "C1_CREAMY"
+      "en": "C1_CREAMY",
+      "ko_kr": "빠른 크리미"
     },
     "image_url": "/images/monsters/2863.gif",
     "basic_info": {
@@ -30717,8 +31906,8 @@
     "stats": {
       "hp": 1695,
       "attack": {
-        "min": 97,
-        "max": 127
+        "min": 20,
+        "max": 20
       },
       "magic_attack": {
         "min": 24,
@@ -30735,6 +31924,10 @@
         "int": 1,
         "dex": 1,
         "luk": 20
+      },
+      "exp": {
+        "base": 4035.0,
+        "job": 3045.0
       }
     },
     "spawns": [
@@ -30816,7 +32009,8 @@
         "icon_url": "images/items/4040.gif",
         "slot": "裝飾品類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2864,
@@ -30936,13 +32130,15 @@
         "icon_url": "images/items/4061.gif",
         "slot": "盔甲類卡片"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 2868,
     "name": {
       "zh_tw": "迅捷松鼠",
-      "en": "C1_COCO"
+      "en": "C1_COCO",
+      "ko_kr": "빠른 코코"
     },
     "image_url": "/images/monsters/2868.gif",
     "basic_info": {
@@ -30957,8 +32153,8 @@
     "stats": {
       "hp": 7820,
       "attack": {
-        "min": 128,
-        "max": 162
+        "min": 72,
+        "max": 72
       },
       "magic_attack": {
         "min": 65,
@@ -30975,6 +32171,10 @@
         "int": 20,
         "dex": 38,
         "luk": 10
+      },
+      "exp": {
+        "base": 10140.0,
+        "job": 8010.0
       }
     },
     "spawns": [
@@ -31041,13 +32241,15 @@
         "icon_url": "images/items/4041.gif",
         "slot": "頭飾類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2869,
     "name": {
       "zh_tw": "雄壯松鼠",
-      "en": "C2_COCO"
+      "en": "C2_COCO",
+      "ko_kr": "튼튼한 코코"
     },
     "image_url": "/images/monsters/2869.gif",
     "basic_info": {
@@ -31062,8 +32264,8 @@
     "stats": {
       "hp": 15640,
       "attack": {
-        "min": 128,
-        "max": 162
+        "min": 72,
+        "max": 72
       },
       "magic_attack": {
         "min": 65,
@@ -31080,6 +32282,10 @@
         "int": 20,
         "dex": 38,
         "luk": 10
+      },
+      "exp": {
+        "base": 10140.0,
+        "job": 8010.0
       }
     },
     "spawns": [
@@ -31146,13 +32352,15 @@
         "icon_url": "images/items/4041.gif",
         "slot": "頭飾類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2872,
     "name": {
       "zh_tw": "狡猾蒼蠅",
-      "en": "C5_CHONCHON"
+      "en": "C5_CHONCHON",
+      "ko_kr": "떠도는 촌촌"
     },
     "image_url": "/images/monsters/2872.gif",
     "basic_info": {
@@ -31167,8 +32375,8 @@
     "stats": {
       "hp": 240,
       "attack": {
-        "min": 28,
-        "max": 34
+        "min": 1,
+        "max": 1
       },
       "magic_attack": {
         "min": 8,
@@ -31185,6 +32393,10 @@
         "int": 1,
         "dex": 8,
         "luk": 5
+      },
+      "exp": {
+        "base": 2250.0,
+        "job": 900.0
       }
     },
     "spawns": [
@@ -31251,13 +32463,15 @@
         "icon_url": "images/items/4009.gif",
         "slot": "鞋子類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2878,
     "name": {
       "zh_tw": "迅捷刺蝟蟲",
-      "en": "C1_CARAMEL"
+      "en": "C1_CARAMEL",
+      "ko_kr": "빠른 카라멜"
     },
     "image_url": "/images/monsters/2878.gif",
     "basic_info": {
@@ -31272,8 +32486,8 @@
     "stats": {
       "hp": 2365,
       "attack": {
-        "min": 108,
-        "max": 140
+        "min": 27,
+        "max": 27
       },
       "magic_attack": {
         "min": 41,
@@ -31290,6 +32504,10 @@
         "int": 10,
         "dex": 32,
         "luk": 5
+      },
+      "exp": {
+        "base": 4755.0,
+        "job": 3465.0
       }
     },
     "spawns": [
@@ -31356,13 +32574,15 @@
         "icon_url": "images/items/4063.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2884,
     "name": {
       "zh_tw": "菁英大腳熊",
-      "en": "C3_BIGFOOT"
+      "en": "C3_BIGFOOT",
+      "ko_kr": "두목 빅풋"
     },
     "image_url": "images/monsters/2884.gif",
     "basic_info": {
@@ -31377,8 +32597,8 @@
     "stats": {
       "hp": 4310,
       "attack": {
-        "min": 95,
-        "max": 119
+        "min": 42,
+        "max": 42
       },
       "magic_attack": {
         "min": 38,
@@ -31395,6 +32615,10 @@
         "int": 1,
         "dex": 12,
         "luk": 1
+      },
+      "exp": {
+        "base": 6000.0,
+        "job": 4500.0
       }
     },
     "spawns": [
@@ -31461,13 +32685,15 @@
         "icon_url": "images/items/4074.gif",
         "slot": "盾牌類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2890,
     "name": {
       "zh_tw": "憤怒艾斯蜘蛛",
-      "en": "C4_ARGOS"
+      "en": "C4_ARGOS",
+      "ko_kr": "분노의 아르고스"
     },
     "image_url": "/images/monsters/2890.gif",
     "basic_info": {
@@ -31482,8 +32708,8 @@
     "stats": {
       "hp": 21840,
       "attack": {
-        "min": 176,
-        "max": 222
+        "min": 139,
+        "max": 139
       },
       "magic_attack": {
         "min": 75,
@@ -31500,6 +32726,10 @@
         "int": 5,
         "dex": 26,
         "luk": 15
+      },
+      "exp": {
+        "base": 18645.0,
+        "job": 16065.0
       }
     },
     "spawns": [
@@ -31566,13 +32796,15 @@
         "icon_url": "images/items/10017.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2891,
     "name": {
       "zh_tw": "狡猾艾吉歐蜈蚣",
-      "en": "C5_ARGIOPE"
+      "en": "C5_ARGIOPE",
+      "ko_kr": "떠도는 아르지오프"
     },
     "image_url": "/images/monsters/2891.gif",
     "basic_info": {
@@ -31587,8 +32819,8 @@
     "stats": {
       "hp": 112540,
       "attack": {
-        "min": 443,
-        "max": 597
+        "min": 421,
+        "max": 421
       },
       "magic_attack": {
         "min": 140,
@@ -31605,6 +32837,10 @@
         "int": 30,
         "dex": 24,
         "luk": 30
+      },
+      "exp": {
+        "base": 75090.0,
+        "job": 69405.0
       }
     },
     "spawns": [
@@ -31664,13 +32900,15 @@
         "icon_url": "images/items/4114.gif",
         "slot": "盔甲類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2892,
     "name": {
       "zh_tw": "迅捷艾吉歐蜈蚣",
-      "en": "C1_ARGIOPE"
+      "en": "C1_ARGIOPE",
+      "ko_kr": "빠른 아르지오프"
     },
     "image_url": "images/monsters/2892.gif",
     "basic_info": {
@@ -31685,8 +32923,8 @@
     "stats": {
       "hp": 112540,
       "attack": {
-        "min": 443,
-        "max": 597
+        "min": 421,
+        "max": 421
       },
       "magic_attack": {
         "min": 140,
@@ -31703,6 +32941,10 @@
         "int": 30,
         "dex": 24,
         "luk": 30
+      },
+      "exp": {
+        "base": 75090.0,
+        "job": 69405.0
       }
     },
     "spawns": [
@@ -31762,7 +33004,8 @@
         "icon_url": "images/items/4114.gif",
         "slot": "盔甲類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2902,
@@ -31882,13 +33125,15 @@
         "icon_url": "images/items/4043.gif",
         "slot": "武器類卡片"
       }
-    ]
+    ],
+    "is_valid": "False"
   },
   {
     "id": 2905,
     "name": {
       "zh_tw": "狡猾蝸牛",
-      "en": "C5_AMBERNITE"
+      "en": "C5_AMBERNITE",
+      "ko_kr": "떠도는 앰버 나이트"
     },
     "image_url": "/images/monsters/2905.gif",
     "basic_info": {
@@ -31903,8 +33148,8 @@
     "stats": {
       "hp": 1325,
       "attack": {
-        "min": 59,
-        "max": 73
+        "min": 10,
+        "max": 10
       },
       "magic_attack": {
         "min": 36,
@@ -31921,6 +33166,10 @@
         "int": 10,
         "dex": 21,
         "luk": 5
+      },
+      "exp": {
+        "base": 2670.0,
+        "job": 1950.0
       }
     },
     "spawns": [
@@ -31987,13 +33236,15 @@
         "icon_url": "images/items/4032.gif",
         "slot": "盾牌類卡片"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 2907,
     "name": {
       "zh_tw": "雄壯鱷魚人",
-      "en": "C2_ALLIGATOR"
+      "en": "C2_ALLIGATOR",
+      "ko_kr": "튼튼한 엘리게이터"
     },
     "image_url": "/images/monsters/2907.gif",
     "basic_info": {
@@ -32008,8 +33259,8 @@
     "stats": {
       "hp": 79110,
       "attack": {
-        "min": 255,
-        "max": 331
+        "min": 156,
+        "max": 156
       },
       "magic_attack": {
         "min": 97,
@@ -32026,6 +33277,10 @@
         "int": 15,
         "dex": 40,
         "luk": 26
+      },
+      "exp": {
+        "base": 29865.0,
+        "job": 26610.0
       }
     },
     "spawns": [
@@ -32078,7 +33333,8 @@
         "icon_url": "/images/items/7003.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   },
   {
     "id": 3423,
@@ -32188,6 +33444,7 @@
         "icon_url": "images/items/7938.gif",
         "slot": "--"
       }
-    ]
+    ],
+    "is_valid": "True"
   }
 ]
