@@ -1,6 +1,5 @@
 name: Deploy to Cloudflare R2
 
-# 當推送到 main 分支時觸發
 on:
   push:
     branches:
@@ -13,19 +12,22 @@ jobs:
 
     steps:
       # 步驟 1: Checkout 您的程式碼
-      - name: Checkout
+      - name: Checkout code
         uses: actions/checkout@v4
 
-      # 步驟 2: 使用新的官方 rclone-action
+      # 步驟 2: 安裝 Rclone
+      # 【已修正】更換為您提供的 AnimMouse/setup-rclone Action
+      # 我們不需要提供 rclone_config，因為我們將使用環境變數進行無設定檔操作
+      - name: Setup Rclone
+        uses: AnimMouse/setup-rclone@v1.2.0 # 使用一個明確的、最新的版本號
+
+      # 步驟 3: 執行 Rclone 同步指令
+      # rclone 已被上一步安裝好，現在我們直接執行指令
       - name: Sync files to Cloudflare R2
-        # 【已修正】更換為 rclone 官方的 Action
-        uses: rclone/rclone-action@v1
-        with:
-          # args 保持不變，依然是您要執行的 rclone 指令
-          args: 'sync ./public twroz-r2:twroz-assets --progress'
+        run: rclone sync ./public twroz-r2:twroz-assets --progress
         env:
-          # 【已修正】將所有設定移至 env 環境變數區塊
-          # 語法為 RCLONE_CONFIG_[遠端名稱]_[參數]
+          # 【保持不變】這些環境變數的格式是 rclone 的標準，可以直接被使用
+          # rclone 會自動讀取它們來設定一個名為 twroz-r2 的遠端
           RCLONE_CONFIG_TWROZ_R2_TYPE: "s3"
           RCLONE_CONFIG_TWROZ_R2_PROVIDER: "Cloudflare"
           RCLONE_CONFIG_TWROZ_R2_ENDPOINT: https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com
