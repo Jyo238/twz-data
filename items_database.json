@@ -26095,7 +26095,7 @@
       "zh_tw": "禮物箱",
       "en": "Gift_Box"
     },
-    "icon_url": "/images/items/644.gif",
+    "icon_url": "images/items/644.gif",
     "category": "消耗類",
     "slot": "--",
     "description": {
@@ -28416,7 +28416,7 @@
       "zh_tw": "卡普拉薪資明細表",
       "en": "Payroll_Of_Kafra"
     },
-    "icon_url": "/images/items/7056.gif",
+    "icon_url": "images/items/7056.gif",
     "category": "其他類",
     "slot": "--",
     "description": {

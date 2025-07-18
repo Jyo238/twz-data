@@ -1,0 +1,35 @@
+name: Deploy to Cloudflare R2
+
+# 當推送到 main 分支時觸發
+on:
+  push:
+    branches:
+      - main  # 您可以更改為您的主要分支，例如 master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: Deploy to R2
+
+    steps:
+      # 步驟 1: Checkout 您的程式碼
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 步驟 2: 使用 rclone-action 來同步檔案
+      - name: Sync files to Cloudflare R2
+        uses: jakejarvis/rclone-sync@v0.1.1
+        with:
+          # 【已修正】使用相對於儲存庫根目錄的正確路徑
+          args: 'sync ./public twroz-r2:twroz-assets'
+          
+          # 設定 rclone 的遠端
+          remote: 'twroz-r2'
+          remote_type: 's3'
+          s3_provider: 'Cloudflare'
+          
+          # 【已修正】移除了 s3_endpoint 前後的單引號
+          s3_endpoint: https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com
+          
+          s3_access_key_id: ${{ secrets.R2_ACCESS_KEY_ID }}
+          s3_secret_access_key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
