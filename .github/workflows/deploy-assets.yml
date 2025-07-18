@@ -4,7 +4,7 @@ name: Deploy to Cloudflare R2
 on:
   push:
     branches:
-      - main  # 您可以更改為您的主要分支，例如 master
+      - main
 
 jobs:
   deploy:
@@ -16,20 +16,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # 步驟 2: 使用 rclone-action 來同步檔案
+      # 步驟 2: 使用新的官方 rclone-action
       - name: Sync files to Cloudflare R2
-        uses: jakejarvis/rclone-sync@v0.1.1
+        # 【已修正】更換為 rclone 官方的 Action
+        uses: rclone/rclone-action@v1
         with:
-          # 【已修正】使用相對於儲存庫根目錄的正確路徑
-          args: 'sync ./public twroz-r2:twroz-assets'
-          
-          # 設定 rclone 的遠端
-          remote: 'twroz-r2'
-          remote_type: 's3'
-          s3_provider: 'Cloudflare'
-          
-          # 【已修正】移除了 s3_endpoint 前後的單引號
-          s3_endpoint: https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com
-          
-          s3_access_key_id: ${{ secrets.R2_ACCESS_KEY_ID }}
-          s3_secret_access_key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          # args 保持不變，依然是您要執行的 rclone 指令
+          args: 'sync ./public twroz-r2:twroz-assets --progress'
+        env:
+          # 【已修正】將所有設定移至 env 環境變數區塊
+          # 語法為 RCLONE_CONFIG_[遠端名稱]_[參數]
+          RCLONE_CONFIG_TWROZ_R2_TYPE: "s3"
+          RCLONE_CONFIG_TWROZ_R2_PROVIDER: "Cloudflare"
+          RCLONE_CONFIG_TWROZ_R2_ENDPOINT: https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com
+          RCLONE_CONFIG_TWROZ_R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          RCLONE_CONFIG_TWROZ_R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
