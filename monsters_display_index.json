@@ -12501,6 +12501,13 @@
         "rate": 2.75,
         "icon_url": "images/items/7032.gif",
         "slot": "--"
+      },
+      {
+        "item_id": 1127,
+        "name": "騎兵之劍[3]",
+        "rate": "???",
+        "icon_url": "/images/items/1127.gif",
+        "slot": "單手劍"
       }
     ]
   },
