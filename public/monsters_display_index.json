@@ -6633,6 +6633,9 @@
         "int": 20,
         "dex": 36,
         "luk": 20
+      },
+      "exp": {
+        "base": 2634
       }
     },
     "spawns": [
@@ -7877,13 +7880,6 @@
         "name": "蒼蠅翅膀",
         "rate": 5.0,
         "icon_url": "images/items/601.gif",
-        "slot": "--"
-      },
-      {
-        "item_id": 757,
-        "name": "鋁原石",
-        "rate": 0.19,
-        "icon_url": "images/items/757.gif",
         "slot": "--"
       },
       {
@@ -12781,6 +12777,13 @@
         "rate": 0.01,
         "icon_url": "images/items/4056.gif",
         "slot": "披風類卡片"
+      },
+      {
+        "item_id": 1157,
+        "name": "雙手巨劍[2]",
+        "rate": "???",
+        "icon_url": "/images/items/1157.gif",
+        "slot": "雙手劍"
       }
     ],
     "is_valid": "True"
@@ -14839,6 +14842,9 @@
         "int": 25,
         "dex": 29,
         "luk": 5
+      },
+      "exp": {
+        "base": 1756
       }
     },
     "spawns": [
@@ -18258,7 +18264,7 @@
         "luk": 10
       },
       "exp": {
-        "base": 1042,
+        "base": 2230,
         "job": 936
       }
     },
